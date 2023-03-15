@@ -1,0 +1,32 @@
+@use '../variables' as *;
+
+header {
+	display: flex;
+	justify-content: space-between;
+    padding: 10px 40px;
+
+    img{
+        height: 80px;
+    }
+
+	nav{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        a{
+            color: $neutral-color;
+            text-decoration: none;
+            
+            &:hover,
+            &:focus,
+            &.selected{
+                color: $action-color;
+            }
+
+            &.selected{
+                text-decoration: underline;
+            }
+        }
+    }
+}

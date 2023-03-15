@@ -1,0 +1,28 @@
+@use 'variables' as *;
+@use 'components' as *;
+@use 'pages' as *;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+body {
+	background-color: $primary-color;
+	color: $text-color;
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+.emphasized{
+    color: $action-color;
+    font-weight: 700;
+}
+
+
+section{
+    padding: 20px;
+    // background: $neutral-color;
+}
