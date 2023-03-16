@@ -9,28 +9,16 @@ export default function Home() {
 			<main>
 				<h1>San Marcos Abortion Activists</h1>
 				<section id='kits'>
-					<h2>Need a Health Kit?</h2>
+					<h2>Need emergency contraceptives or pregnancy tests?</h2>
 					<article>
 						<p>
 							San Marcos Abortion Activists has partnered with{' '}
-							<a href='#'>The Bridge Collective</a> to deliver free reproductive
-							health kits to San Martians!
+							<a href='#'>The Bridge Collective</a> to deliver free reproductive health kits to San Martians! Kits can be requested at one of our pickup locations, or delivered to your door by one of our volunteers!
 						</p>
 					</article>
 
-					<article>
-						<h3>Kits Include</h3>
 
-						<div class='list-container'>
-							<ul>
-								<li>Plan B Pills</li>
-								<li>A Pregnancy Test</li>
-								<li>Condoms</li>
-							</ul>
-						</div>
-					</article>
-
-					<a class='btn'>Request a Kit</a>
+					<a class='btn'>Learn More</a>
 				</section>
 				<section id='donate'>
 					<h2>Donate</h2>
