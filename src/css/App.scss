@@ -49,6 +49,7 @@ p {
 	padding: 5px 20px;
 	border-radius: 8px;
 	color: white;
+    text-decoration: none;
 
 	&:hover {
 		background: linear-gradient($action-color, mix($action-color, white, 75%));

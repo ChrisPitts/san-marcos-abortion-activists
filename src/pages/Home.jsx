@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../nav';
+import { Link } from 'react-router-dom';
 import logoVenmo from '../assets/venmo_logo.png';
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
 					</article>
 
 
-					<a class='btn'>Learn More</a>
+					<Link to='/kits' class='btn'>Learn More</Link>
 				</section>
 				<section id='donate'>
 					<h2>Donate</h2>

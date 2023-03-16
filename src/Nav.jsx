@@ -10,11 +10,11 @@ export default function Nav(props) {
 				<img alt='smaa logo' src={logo} />
 			</Link>
 			<nav>
-				<Link to='/' className={props.page == 'home' ? 'selected' : ''}>
-					Home
-				</Link>
 				<Link to='/about' className={props.page == 'about' ? 'selected' : ''}>
 					About
+				</Link>
+				<Link to='/kits' className={props.page == 'kits' ? 'selected' : ''}>
+					Health Kits
 				</Link>
 			</nav>
 		</header>
