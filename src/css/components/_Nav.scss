@@ -21,7 +21,7 @@ header {
             &:hover,
             &:focus,
             &.selected{
-                color: $action-color;
+                color: $highlight-color;
             }
 
             &.selected{

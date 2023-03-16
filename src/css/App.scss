@@ -6,6 +6,7 @@
 *::after,
 *::before {
 	box-sizing: border-box;
+    line-height: $line-height;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -20,11 +21,13 @@ body {
 
 h1, h2, h3{
     text-align: center;
+    text-shadow: 0 0 10px $highlight-color;
 }
 
 .emphasized {
-	color: $action-color;
+	color: $highlight-color;
 	font-weight: 700;
+    text-shadow: 0 0 3px white;
 }
 
 section {
