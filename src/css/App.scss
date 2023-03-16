@@ -46,10 +46,10 @@ p {
 
 .btn {
 	background: linear-gradient(mix($action-color, white, 75%), $action-color);
-	padding: 5px 20px;
 	border-radius: 8px;
 	color: white;
-    text-decoration: none;
+	padding: 5px 20px;
+	text-decoration: none;
 
 	&:hover {
 		background: linear-gradient($action-color, mix($action-color, white, 75%));
@@ -61,11 +61,10 @@ section {
 }
 
 section:nth-child(2n) {
-	
 	color: $text-color-2;
-    margin: 40px 0;
-    padding: 30px;
-    position: relative;
+	margin: 40px 0;
+	padding: 30px;
+	position: relative;
 
 	h1,
 	h2,
@@ -74,15 +73,15 @@ section:nth-child(2n) {
 	}
 
 	&::after {
-		content: '';
 		background: linear-gradient(45deg, $gradient-start, $neutral-color);
-        inset: 0;
-        position: absolute;
-        transform: skewY(-5deg);
-        z-index: -1;
+		content: '';
+		inset: 0;
+		position: absolute;
+		transform: skewY(-5deg);
+		z-index: -1;
 	}
 
-    &:nth-child(4n)::after{
-        transform: skewY(5deg);
-    }
+	&:nth-child(4n)::after {
+		transform: skewY(5deg);
+	}
 }

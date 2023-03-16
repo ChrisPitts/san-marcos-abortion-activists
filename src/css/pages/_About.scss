@@ -1,15 +1,12 @@
+#values {
+	.value-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
 
-#values{
-
-    .value-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    article{
-        
-        margin: 20px;
-        width: 300px;
-    }
-}
+		article {
+			margin: 20px;
+			width: 300px;
+		}
+	}
 }
