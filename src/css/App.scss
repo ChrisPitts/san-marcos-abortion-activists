@@ -12,17 +12,17 @@
 	text-align: left;
 }
 
-*::selection{
-        background: black;
-        color: white;
-    }
+*::selection {
+	background: black;
+	color: white;
+}
 
 body {
 	background-color: $primary-color;
 	color: $text-color-1;
 	font-family: $font-family;
 	font-size: $font-size;
-    margin-top: 100px;
+	margin-top: 100px;
 }
 
 h1,
@@ -44,26 +44,44 @@ p {
 	text-shadow: 0 0 3px white;
 }
 
-.btn{
-    background: linear-gradient(mix($action-color, white, 75%), $action-color);
-    padding: 5px 20px;
-    border-radius: 8px;
-    color: white;
+.btn {
+	background: linear-gradient(mix($action-color, white, 75%), $action-color);
+	padding: 5px 20px;
+	border-radius: 8px;
+	color: white;
 
-    &:hover{
-        background: linear-gradient($action-color, mix($action-color, white, 75%));;
-    }
+	&:hover {
+		background: linear-gradient($action-color, mix($action-color, white, 75%));
+	}
 }
 
 section {
 	padding: 20px;
 }
 
-section:nth-child(even){
-    background-color: $neutral-color;
-    color: $text-color-2;
+section:nth-child(2n) {
+	
+	color: $text-color-2;
+    margin: 40px 0;
+    padding: 30px;
+    position: relative;
 
-    h1,h2,h3{
-        text-shadow: 0 0 10px $primary-color;
+	h1,
+	h2,
+	h3 {
+		text-shadow: 0 0 10px $primary-color;
+	}
+
+	&::after {
+		content: '';
+		background: linear-gradient(45deg, $gradient-start, $neutral-color);
+        inset: 0;
+        position: absolute;
+        transform: skewY(-5deg);
+        z-index: -1;
+	}
+
+    &:nth-child(4n)::after{
+        transform: skewY(5deg);
     }
 }
