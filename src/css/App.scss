@@ -6,31 +6,64 @@
 *::after,
 *::before {
 	box-sizing: border-box;
-    line-height: $line-height;
+	line-height: $line-height;
 	margin: 0;
 	padding: 0;
 	text-align: left;
 }
 
+*::selection{
+        background: black;
+        color: white;
+    }
+
 body {
 	background-color: $primary-color;
-	color: $text-color;
+	color: $text-color-1;
 	font-family: $font-family;
 	font-size: $font-size;
+    margin-top: 100px;
 }
 
-h1, h2, h3{
-    text-align: center;
-    text-shadow: 0 0 10px $highlight-color;
+h1,
+h2,
+h3 {
+	text-align: center;
+	text-shadow: 0 0 10px $highlight-color;
+}
+
+p {
+	margin: auto;
+	max-width: 1000px;
+	width: 80%;
 }
 
 .emphasized {
 	color: $highlight-color;
 	font-weight: 700;
-    text-shadow: 0 0 3px white;
+	text-shadow: 0 0 3px white;
+}
+
+.btn{
+    background: linear-gradient(mix($action-color, white, 75%), $action-color);
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: white;
+
+    &:hover{
+        background: linear-gradient($action-color, mix($action-color, white, 75%));;
+    }
 }
 
 section {
 	padding: 20px;
-	// background: $neutral-color;
+}
+
+section:nth-child(even){
+    background-color: $neutral-color;
+    color: $text-color-2;
+
+    h1,h2,h3{
+        text-shadow: 0 0 10px $primary-color;
+    }
 }

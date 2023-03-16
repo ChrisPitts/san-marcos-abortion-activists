@@ -1,16 +1,36 @@
 @use '../variables' as *;
 
-.container{
-    display: flex;
-    justify-content: space-around;
+.container {
+	display: flex;
+	justify-content: space-around;
 }
 
-#donate{
-    a{
-        color: $text-color;
-        text-decoration: none;
+#kits {
+
+	text-align: center;
+
+    article{
+        margin: 20px;
     }
-    .logoImg{
-        width: 200px;
-    }
+
+	p {
+		max-width: 500px;
+		text-align: center;
+	}
+	.list-container {
+		text-align: center;
+	}
+	ul {
+		display: inline-block;
+	}
+}
+
+#donate {
+	a {
+		color: $text-color-1;
+		text-decoration: none;
+	}
+	.logoImg {
+		width: 200px;
+	}
 }
