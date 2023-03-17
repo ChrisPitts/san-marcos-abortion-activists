@@ -28,6 +28,7 @@ export default function Kits() {
 							<a
 								href='https://docs.google.com/forms/d/e/1FAIpQLSdymu9nRJOlcjQHysooPwHrLotZ7-thdmOP9dZ6hxUt2HFarQ/viewform'
 								className='btn'
+								target='_blank'
 							>
 								Request a Kit Delivery
 							</a>
@@ -55,7 +56,7 @@ export default function Kits() {
 							<p>718 E Hopkins St</p>
 						</figure>
 					</div>
-                </section>
+				</section>
 			</main>
 		</>
 	);

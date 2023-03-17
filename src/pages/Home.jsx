@@ -26,7 +26,7 @@ export default function Home() {
 					<div className='container'>
 						<div>
 							<h3>Venmo</h3>
-							<a href='https://account.venmo.com/u/smabortionactivists'>
+							<a href='https://account.venmo.com/u/smabortionactivists' target="_blank">
 								<img src={logoVenmo} alt='venmo' class='logoImg' />
 								<p>@smabortionactivists</p>
 							</a>
