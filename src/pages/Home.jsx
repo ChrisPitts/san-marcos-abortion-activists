@@ -31,16 +31,16 @@ export default function Home() {
 				<section id='donate'>
 					<h2>Donate</h2>
 					<div className='container'>
-						<div>
+						<a
+							href='https://account.venmo.com/u/smabortionactivists'
+							target='_blank'
+							class='btn'
+						>
 							<h3>Venmo</h3>
-							<a
-								href='https://account.venmo.com/u/smabortionactivists'
-								target='_blank'
-							>
-								<img src={logoVenmo} alt='venmo' class='logoImg' />
-								<p>@smabortionactivists</p>
-							</a>
-						</div>
+
+							<img src={logoVenmo} alt='venmo' class='logoImg' />
+							<p>@smabortionactivists</p>
+						</a>
 					</div>
 				</section>
 				<section id='socials'>
