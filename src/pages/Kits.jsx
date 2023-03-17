@@ -17,8 +17,11 @@ export default function Kits() {
 						<h2>Get a Reproductive Health Kit</h2>
 						<p>
 							San Marcos Abortion Activists has teamed up with{' '}
-							<a href='#'>The Bridge Collective</a> to help distribute
-							contraceptives and pregnancy tests to San Martians!
+							<a href='https://thebridgecollective.org/' target='_blank'>
+								The Bridge Collective
+							</a>{' '}
+							to help distribute contraceptives and pregnancy tests to San
+							Martians!
 						</p>
 						<br />
 						<div className='container'>
