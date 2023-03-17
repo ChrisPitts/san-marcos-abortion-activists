@@ -25,13 +25,13 @@ body {
 	margin-top: 100px;
 }
 
-a{
-    color: $action-color;
-    text-decoration: none;
+a {
+	color: $action-color;
+	text-decoration: none;
 
-    &:hover{
-        text-decoration: underline;
-    }
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 h1,
@@ -62,7 +62,7 @@ p {
 
 	&:hover {
 		background: linear-gradient($action-color, mix($action-color, white, 75%));
-        text-decoration: none;
+		text-decoration: none;
 	}
 }
 
@@ -90,8 +90,10 @@ section:nth-child(2n + 1) {
 
 	&::after {
 		background: linear-gradient(45deg, $gradient-start, $neutral-color);
+		border-radius: 100px;
 		content: '';
 		inset: 0;
+		margin-inline: 20px;
 		position: absolute;
 		transform: skewY(-3deg);
 		z-index: -1;

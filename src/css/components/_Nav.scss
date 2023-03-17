@@ -27,6 +27,7 @@ header {
             &:focus,
             &.selected{
                 color: $highlight-color;
+                text-decoration: none;
             }
 
             &.selected{
