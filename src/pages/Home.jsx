@@ -23,9 +23,8 @@ export default function Home() {
 						</p>
 					</article>
 
-					{/* TODO change button text to something more meaningful */}
 					<Link to='/kits' class='btn'>
-						Learn More
+						Get a Reproductive Health Kit
 					</Link>
 				</section>
 				<section id='donate'>
