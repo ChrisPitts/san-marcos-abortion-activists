@@ -9,7 +9,7 @@
 	line-height: $line-height;
 	margin: 0;
 	padding: 0;
-	text-align: left;
+	// text-align: left;
 }
 
 *::selection {
@@ -19,10 +19,19 @@
 
 body {
 	background-color: $primary-color;
-	color: $text-color-1;
+	color: $text-color;
 	font-family: $font-family;
 	font-size: $font-size;
 	margin-top: 100px;
+}
+
+a{
+    color: $action-color;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 h1,
@@ -34,7 +43,7 @@ h3 {
 
 p {
 	margin: auto;
-	max-width: 1000px;
+	max-width: 500px;
 	width: 80%;
 }
 
@@ -53,17 +62,24 @@ p {
 
 	&:hover {
 		background: linear-gradient($action-color, mix($action-color, white, 75%));
+        text-decoration: none;
 	}
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 section {
 	padding: 20px;
 }
 
-section:nth-child(2n) {
-	color: $text-color-2;
+section:nth-child(2n + 1) {
+	color: $text-color;
 	margin: 40px 0;
-	padding: 30px;
+	padding: 80px 0;
 	position: relative;
 
 	h1,
@@ -77,11 +93,11 @@ section:nth-child(2n) {
 		content: '';
 		inset: 0;
 		position: absolute;
-		transform: skewY(-5deg);
+		transform: skewY(-3deg);
 		z-index: -1;
 	}
 
-	&:nth-child(4n)::after {
-		transform: skewY(5deg);
+	&:nth-child(4n + 1)::after {
+		transform: skewY(3deg);
 	}
 }

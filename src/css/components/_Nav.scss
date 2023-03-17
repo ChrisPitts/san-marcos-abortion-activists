@@ -8,6 +8,7 @@ header {
     position:fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 
     img{
         height: 80px;
@@ -19,7 +20,7 @@ header {
         justify-content: space-evenly;
         width: 50%;
         a{
-            color: $neutral-color;
+            color: $text-color;
             text-decoration: none;
             
             &:hover,
