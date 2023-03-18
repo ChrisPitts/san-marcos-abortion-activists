@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../nav';
+import Nav from '../components/Nav';
 import logo from '../assets/logo.jpg';
 import logoBridgeCollective from '../assets/bridge_collective_logo.png';
 import logoMDH from '../assets/mdh_logo.jpg';

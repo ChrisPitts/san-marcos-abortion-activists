@@ -1,5 +1,8 @@
 import React from 'react';
-import Nav from '../nav';
+import Nav from '../components/Nav';
+import Instagram from '../components/Instagram';
+import Twitter from '../components/Twitter';
+import { InstagramEmbed } from 'react-social-media-embed';
 import { Link } from 'react-router-dom';
 import logoVenmo from '../assets/venmo_logo.png';
 
@@ -44,6 +47,11 @@ export default function Home() {
 				</section>
 				<section id='socials'>
 					<h2>Follow us on Social Media</h2>
+					{/* TODO find out how to properly embed social media */}
+					<div class='container'>
+						<Instagram />
+						<Twitter />
+					</div>
 				</section>
 				<section id='contact'>
 					<h2>Contact Us</h2>

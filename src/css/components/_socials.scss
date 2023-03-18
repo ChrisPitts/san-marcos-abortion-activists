@@ -1,0 +1,9 @@
+@use '../variables/' as *;
+.social-component{
+    color: $text-color;
+    text-align: center;
+
+    img{
+        width: 300px;
+    }
+}
