@@ -9,7 +9,6 @@
 	line-height: $line-height;
 	margin: 0;
 	padding: 0;
-	// text-align: left;
 }
 
 *::selection {
@@ -27,11 +26,16 @@ body {
 	font-family: $font-family;
 	font-size: $font-size;
 	margin-top: 100px;
+
+	@media screen and (max-width: 600px) {
+		font-size: $font-size-small;		
+	}
 }
 
 a {
 	color: $action-color;
 	text-decoration: none;
+	text-align: center;
 
 	&:hover {
 		text-decoration: underline;
@@ -101,9 +105,17 @@ section:nth-child(2n + 1) {
 		position: absolute;
 		transform: skewY(-3deg);
 		z-index: -1;
+
+		@media screen and (max-width: 600px) {
+			transform: skewY(0deg);
+		}
 	}
 
 	&:nth-child(4n + 1)::after {
 		transform: skewY(3deg);
+
+		@media screen and (max-width: 600px) {
+			transform: skewY(0deg);
+		}
 	}
 }
