@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function () {
-  return (
+	return (
 		<a href='https://twitter.com/smabortionact' class='social-component'>
 			<h3>Twitter</h3>
 			<img
