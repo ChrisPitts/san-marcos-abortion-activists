@@ -17,6 +17,10 @@
 	color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
 	background-color: $primary-color;
 	color: $text-color;
