@@ -2,7 +2,11 @@ import React from 'react';
 
 export default function () {
 	return (
-		<a href='https://twitter.com/smabortionact' class='social-component'>
+		<a
+			href='https://twitter.com/smabortionact'
+			class='social-component'
+			target='_blank'
+		>
 			<h3>Twitter</h3>
 			<img
 				src='https://cdn-icons-png.flaticon.com/512/3256/3256013.png'
