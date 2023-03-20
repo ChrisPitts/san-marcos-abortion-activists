@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo.png';
 import logoBridgeCollective from '../assets/bridge_collective_logo.png';
 import logoMDH from '../assets/mdh_logo.jpg';
 import logoLazydaze from '../assets/lazydaze_logo.webp';
