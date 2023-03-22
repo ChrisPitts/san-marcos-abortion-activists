@@ -18,7 +18,7 @@ header {
         align-items: center;
         display: flex;
         justify-content: space-evenly;
-        width: 50%;
+        width: 80%;
         a{
             color: $text-color;
             text-decoration: none;
@@ -33,6 +33,46 @@ header {
             &.selected{
                 text-decoration: underline;
             }
+        }
+    }
+
+    .burger{
+        background: none;
+        border: none;
+        display: none;
+
+        &__bar{
+            background-color: white;
+            width: 20px;
+            height: 3px;
+
+            &.middle{
+                margin-block: 3px;
+            }
+            
+        }
+
+    }
+
+    @media screen and (max-width: 400px) {
+
+        flex-direction: column;
+
+        .burger{
+            display: block;
+            margin: auto;
+
+        }
+
+        nav{
+            display: none;
+            flex-direction: column;
+            width: 100%;
+
+            &.visible{
+                display: flex;
+            }
+
         }
     }
 }
