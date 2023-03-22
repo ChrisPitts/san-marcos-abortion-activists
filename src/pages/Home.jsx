@@ -12,6 +12,10 @@ export default function Home() {
 			<Nav page='home' />
 			<main>
 				<h1>San Marcos Abortion Activists</h1>
+				<section id='hero'>
+					<img src='http://via.placeholder.com/400x400' />
+					<p>Fighting to keep the government's laws off our bodies.</p>
+				</section>
 				<section id='kits'>
 					<h2>Need emergency contraceptives or pregnancy tests?</h2>
 					<article>

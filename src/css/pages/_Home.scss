@@ -1,6 +1,22 @@
 @use '../variables' as *;
 
+#hero{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	img{
+		display: block;
 
+	}
+
+	p{
+		font-weight: 700;
+		width: 400px;
+		max-width: 80%;
+		margin: 0;
+	}
+}
 
 #kits {
 	text-align: center;
