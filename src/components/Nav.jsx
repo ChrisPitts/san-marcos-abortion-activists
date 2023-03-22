@@ -16,6 +16,9 @@ export default function Nav(props) {
 				<Link to='/kits' className={props.page == 'kits' ? 'selected' : ''}>
 					Health Kits
 				</Link>
+				<Link to='/resources' className={props.page == 'resources' ? 'selected' : ''}>
+					Resources
+				</Link>
 			</nav>
 		</header>
 	);
