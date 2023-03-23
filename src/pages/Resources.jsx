@@ -4,9 +4,7 @@ import Nav from '../components/Nav';
 export default function Resources() {
 	return (
 		<>
-			<header>
-				<Nav page='resources' />
-			</header>
+			<Nav page='resources' />
 			<main id='resources'>
 				<h1>Resources</h1>
 				<section id='informational'>
