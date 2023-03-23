@@ -23,7 +23,6 @@ export default function Kits() {
 							to help distribute contraceptives and pregnancy tests to San
 							Martians!
 						</p>
-						<br />
 						<div className='container'>
 							<a href='#pickup' className='btn'>
 								Go to one of our Pickup Locations
