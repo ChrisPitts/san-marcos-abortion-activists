@@ -14,7 +14,6 @@ export default function Kits() {
 				<section id='kit_hero' className='container'>
 					<img alt='SMAA Logo' src={logo} />
 					<div>
-						<h2>Get a Reproductive Health Kit</h2>
 						<p>
 							San Marcos Abortion Activists has teamed up with{' '}
 							<a href='https://thebridgecollective.org/' target='_blank'>

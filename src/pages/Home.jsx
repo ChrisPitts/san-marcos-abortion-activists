@@ -31,7 +31,7 @@ export default function Home() {
 					</article>
 
 					<Link to='/kits' class='btn'>
-						Get a Reproductive Health Kit
+						Get a Health Kit
 					</Link>
 				</section>
 				<section id='donate'>
