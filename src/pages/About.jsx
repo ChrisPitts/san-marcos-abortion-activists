@@ -61,6 +61,25 @@ export default function About() {
 					</article>
 				</div>
 			</section>
+			<section id='work'>
+				<h2>Our Work</h2>
+				<p>
+					San Marcos Abortion Activists has engaged in a variety of advocacy
+					efforts. Some of our efforts include:
+				</p>
+				<p class='listParagraph'>
+					<ul>
+						<li>
+							Direct action initiatives such as rallies and student walk-outs
+						</li>
+						<li>A community-led reproductive justice mutual aid network</li>
+						<li>
+							Advocacy around local legislation to protect abortion seekers and
+							providers
+						</li>
+					</ul>
+				</p>
+			</section>
 		</>
 	);
 }

@@ -1,3 +1,4 @@
+@use '../variables' as *;
 #values {
 	.value-container {
 		display: flex;
@@ -8,5 +9,16 @@
 			margin: 20px;
 			width: 300px;
 		}
+	}
+}
+
+#work{
+
+	ul{
+		list-style: inside;
+	}
+
+	li{
+		margin: 1em 0;
 	}
 }
