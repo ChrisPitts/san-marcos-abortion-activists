@@ -33,12 +33,14 @@ body {
 }
 
 a {
-	color: $action-color;
+	color: #000;
 	text-decoration: none;
 	text-align: center;
+	font-weight: 700;
 
 	&:hover {
 		text-decoration: underline;
+		// font-weight: 700;
 	}
 }
 
@@ -64,6 +66,7 @@ p {
 .btn {
 	background: linear-gradient(mix($action-color, white, 75%), $action-color);
 	border-radius: 8px;
+	box-shadow: 1px 1px 10px black;
 	color: white;
 	padding: 5px 20px;
 	text-decoration: none;
