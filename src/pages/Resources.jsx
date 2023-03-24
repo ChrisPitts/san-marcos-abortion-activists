@@ -115,6 +115,17 @@ export default function Resources() {
 								fronterafundrgv.org
 							</a>
 						</article>
+						<article>
+							<h3>Fund Texas Choice</h3>
+							<p>
+								Fund Texas Choice helps Texans equitably access abortion through
+								safe, confidential, and comprehensive travel services and
+								practical support.
+							</p>
+							<a href='https://fundtexaschoice.org/' target='_blank'>
+								fundtexaschoice.org
+							</a>
+						</article>
 					</div>
 				</section>
 				<section id='legal'>
@@ -144,6 +155,16 @@ export default function Resources() {
 							<a href='https://janesdueprocess.org/' target='_blank'>
 								janesdueprocess.org
 							</a>
+						</article>
+						<article>
+							<h3>Abortion Defense Network</h3>
+							<p>
+								If you have questions about your legal rights to provide or
+								support abortion care, or if you have been threatened with
+								arrest, prosecution, or other legal action related to abortion,
+								please contact us.
+							</p>
+							<a href='https://abortiondefensenetwork.org/' target='_blank'>abortiondefensenetwork.org</a>
 						</article>
 					</div>
 				</section>
