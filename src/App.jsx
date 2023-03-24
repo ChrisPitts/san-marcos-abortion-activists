@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Kits from './pages/Kits';
 import Resources from './pages/Resources';
+import PageError from './pages/PageError';
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 				<Route path='/about' element={<About />} />
 				<Route path='/kits' element={<Kits />} />
 				<Route path='/resources' element={<Resources />} />
+				<Route path='*' element={<PageError />} />
 			</Routes>
 		</>
 	);
