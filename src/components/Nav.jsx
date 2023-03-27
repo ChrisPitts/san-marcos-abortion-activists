@@ -19,7 +19,7 @@ export default function Nav(props)
 			<Link to='/'>
 				<img alt='smaa logo' src={logo} />
 			</Link>
-			<button onClick={burgerClicked} className='burger'>
+			<button onClick={burgerClicked} aria-label='Navigation Menu Expand' className='burger'>
 				<div className='burger__bar'></div>
 				<div className='burger__bar middle'></div>
 				<div className='burger__bar'></div>

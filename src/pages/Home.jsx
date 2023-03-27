@@ -13,7 +13,7 @@ export default function Home() {
 			<main>
 				<h1>San Marcos Abortion Activists</h1>
 				<section id='hero'>
-					<img src='http://via.placeholder.com/400x400' />
+					<img src='http://via.placeholder.com/400x400' alt='SMAA Logo' />
 					<p>Fighting to keep the government's laws off our bodies.</p>
 				</section>
 				<section id='kits'>
