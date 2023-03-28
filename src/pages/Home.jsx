@@ -4,7 +4,7 @@ import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
 import { InstagramEmbed } from 'react-social-media-embed';
 import { Link } from 'react-router-dom';
-import logoVenmo from '../assets/venmo_logo.png';
+import logoVenmo from '../assets/venmo_logo.webp';
 
 export default function Home() {
 	return (
