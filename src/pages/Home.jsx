@@ -4,7 +4,7 @@ import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
 import { InstagramEmbed } from 'react-social-media-embed';
 import { Link } from 'react-router-dom';
-import logoVenmo from '../assets/venmo_logo.png';
+import logoVenmo from '../assets/venmo_logo.webp';
 
 export default function Home() {
 	return (
@@ -13,7 +13,7 @@ export default function Home() {
 			<main>
 				<h1>San Marcos Abortion Activists</h1>
 				<section id='hero'>
-					<img src='http://via.placeholder.com/400x400' />
+					<img src='http://via.placeholder.com/400x400' alt='SMAA Logo' />
 					<p>Fighting to keep the government's laws off our bodies.</p>
 				</section>
 				<section id='kits'>
@@ -59,6 +59,7 @@ export default function Home() {
 				</section>
 				<section id='contact'>
 					<h2>Contact Us</h2>
+					<p>Email: <a href='mailto:example@fakeaddress.com'>example@fakeaddress.com</a></p>
 				</section>
 			</main>
 		</>
