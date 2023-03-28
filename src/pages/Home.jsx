@@ -59,6 +59,7 @@ export default function Home() {
 				</section>
 				<section id='contact'>
 					<h2>Contact Us</h2>
+					<p>Email: <a href='mailto:example@fakeaddress.com'>example@fakeaddress.com</a></p>
 				</section>
 			</main>
 		</>
