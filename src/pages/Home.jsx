@@ -2,7 +2,6 @@ import React from 'react';
 import Nav from '../components/Nav';
 import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
-import { InstagramEmbed } from 'react-social-media-embed';
 import { Link } from 'react-router-dom';
 import logoVenmo from '../assets/venmo_logo.webp';
 
