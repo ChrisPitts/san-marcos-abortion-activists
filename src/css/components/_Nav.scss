@@ -23,17 +23,14 @@ header {
         a{
             color: $text-color;
             text-decoration: none;
+            transition: color 250ms linear;
             
             &:hover,
             &:focus,
             &.selected{
                 color: $highlight-color;
-                text-decoration: none;
             }
 
-            &.selected{
-                text-decoration: underline;
-            }
         }
     }
 

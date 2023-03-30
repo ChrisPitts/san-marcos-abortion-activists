@@ -14,7 +14,7 @@ export default function Nav(props)
 
 	console.dir(props);
 
-	// TODO burger button should be accessible to screen readers
+	// TODO add ARIA current element to nav links
 	return (
 		<header>
 			<Link to='/'>
