@@ -37,10 +37,9 @@ a {
 	text-decoration: none;
 	text-align: center;
 	font-weight: 700;
-	transition: text-shadow 250ms linear;
+	transition: text-shadow 250ms linear, color 250ms linear;
 
 	&:hover {
-		// text-decoration: underline;
 		text-shadow: 0 0 10px white;
 		
 	}
