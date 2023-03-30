@@ -3,10 +3,14 @@
 	flex-wrap: nowrap;
 
 	img {
+		aspect-ratio: 1/1;
 		width: 300px;
 		max-width: 20%;
-		// aspect-ratio: 1/1;
 		margin: auto;
+
+		&.smaa_logo{
+			aspect-ratio: 10/13;
+		}
 	}
 
 	p{
@@ -39,6 +43,7 @@
 
 		img {
 			width: 100%;
+			aspect-ratio: 1;
 		}
 	}
 }

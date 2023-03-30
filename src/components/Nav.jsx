@@ -1,25 +1,26 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.webp';
 
 export default function Nav(props)
 {
 	const navRef = useRef();
+	const [burgerExpanded, setBurgerExpanded] = useState(false);
 	function burgerClicked()
 	{
-		console.log('burger clicked');
+		setBurgerExpanded((prevState) => !prevState);
 		navRef.current.classList.toggle('visible');
 	}
 
 	console.dir(props);
 
-	// TODO burger button should be accessible to screen readers
+	// TODO add ARIA current element to nav links
 	return (
 		<header>
 			<Link to='/'>
 				<img alt='smaa logo' src={logo} />
 			</Link>
-			<button onClick={burgerClicked} className='burger'>
+			<button onClick={burgerClicked} aria-label='Navigation Menu Expand'  aria-expanded={burgerExpanded} className='burger'>
 				<div className='burger__bar'></div>
 				<div className='burger__bar middle'></div>
 				<div className='burger__bar'></div>
