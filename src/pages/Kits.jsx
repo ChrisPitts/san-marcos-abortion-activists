@@ -12,7 +12,7 @@ export default function Kits() {
 			<main>
 				<h1>Reproductive Healthcare Kits</h1>
 				<section id='kit_hero' className='container'>
-					<img alt='SMAA Logo' src={logo} />
+					<img alt='SMAA Logo' class='smaa_logo' src={logo} />
 					<div>
 						<p>
 							San Marcos Abortion Activists has teamed up with{' '}
