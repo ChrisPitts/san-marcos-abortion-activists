@@ -2,4 +2,14 @@
     .container{
         flex-wrap: wrap;
     }
+
+    a{
+        display: block;
+        text-align: center;
+        // margin: auto;
+    }
+
+    article{
+        margin-bottom: 20px;
+    }
 }

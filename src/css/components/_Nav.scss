@@ -11,7 +11,8 @@ header {
     z-index: 1;
 
     img{
-        height: 80px;
+        aspect-ratio: 10/13;
+        height: 120px;
     }
 
 	nav{
@@ -22,16 +23,12 @@ header {
         a{
             color: $text-color;
             text-decoration: none;
+            transition: color 250ms linear;
             
             &:hover,
             &:focus,
             &.selected{
-                color: $highlight-color;
-                text-decoration: none;
-            }
-
-            &.selected{
-                text-decoration: underline;
+                color: $action-color;
             }
         }
     }

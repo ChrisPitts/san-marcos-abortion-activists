@@ -1,8 +1,8 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import logo from '../assets/logo.png';
-import logoBridgeCollective from '../assets/bridge_collective_logo.png';
-import logoMDH from '../assets/mdh_logo.jpg';
+import logo from '../assets/logo.webp';
+import logoBridgeCollective from '../assets/bridge_collective_logo.webp';
+import logoMDH from '../assets/mdh_logo.webp';
 import logoLazydaze from '../assets/lazydaze_logo.webp';
 
 export default function Kits() {
@@ -12,7 +12,7 @@ export default function Kits() {
 			<main>
 				<h1>Reproductive Healthcare Kits</h1>
 				<section id='kit_hero' className='container'>
-					<img alt='SMAA Logo' src={logo} />
+					<img alt='SMAA Logo' class='smaa_logo' src={logo} />
 					<div>
 						<p>
 							San Marcos Abortion Activists has teamed up with{' '}
