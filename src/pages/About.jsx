@@ -27,7 +27,7 @@ export default function About() {
 					<article class>
 						<h3>Intersectional</h3>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+							Lorem ipsum <span className='emphasized'>dolor sit amet</span> consectetur adipisicing elit. Ratione
 							consectetur impedit perspiciatis quam provident voluptatem, itaque
 							laboriosam doloremque deleniti odit!
 						</p>
