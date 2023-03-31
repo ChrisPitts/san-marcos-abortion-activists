@@ -10,7 +10,7 @@ export default function () {
 			<h3>Twitter</h3>
 			<img
 				src='https://cdn-icons-png.flaticon.com/512/3256/3256013.png'
-				alt='Instagram'
+				alt='Twitter'
 			/>
 			<p>@smabortionact</p>
 		</a>
