@@ -49,7 +49,7 @@ h1,
 h2,
 h3 {
 	text-align: center;
-	text-shadow: 0 0 10px $highlight-color;
+	text-shadow: 0 0 10px black;
 }
 
 p {
@@ -96,12 +96,6 @@ section:nth-child(2n + 1) {
 	.emphasized{ 
 		color: $highlight-color-2;
 		text-shadow: none;
-	}
-
-	h1,
-	h2,
-	h3 {
-		text-shadow: 0 0 10px $primary-color;
 	}
 
 	&::after {
