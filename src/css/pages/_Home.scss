@@ -6,6 +6,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	img{
+		aspect-ratio: 1/1;
 		display: block;
 		max-width: 80%;
 
@@ -49,6 +50,7 @@
 		font-size: 0.75em;
 	}
 	.logoImg {
+		aspect-ratio: 1/1;
 		width: 80%;
 		
 	}
@@ -62,6 +64,3 @@
 	}
 }
 
-#contact{
-	text-align: center;
-}

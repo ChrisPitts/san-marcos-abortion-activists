@@ -1,16 +1,17 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import Contact from '../components/Contact';
 import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
-import { InstagramEmbed } from 'react-social-media-embed';
 import { Link } from 'react-router-dom';
 import logoVenmo from '../assets/venmo_logo.webp';
+
 
 export default function Home() {
 	return (
 		<>
 			<Nav page='home' />
-			<main>
+			<main id='home'>
 				<h1>San Marcos Abortion Activists</h1>
 				<section id='hero'>
 					<img src='http://via.placeholder.com/400x400' alt='SMAA Logo' />
@@ -59,7 +60,7 @@ export default function Home() {
 				</section>
 				<section id='contact'>
 					<h2>Contact Us</h2>
-					<p>Email: <a href='mailto:example@fakeaddress.com'>example@fakeaddress.com</a></p>
+					<Contact />
 				</section>
 			</main>
 		</>

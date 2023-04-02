@@ -7,7 +7,7 @@ export default function Instagram() {
 			class='social-component'
 			target='_blank'
 		>
-			<h3 class='emphasized'>Instagram</h3>
+			<h3>Instagram</h3>
 			<img
 				src='https://cdn-icons-png.flaticon.com/512/2111/2111463.png'
 				alt='Instagram'
