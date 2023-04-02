@@ -16,6 +16,11 @@
 	color: white;
 }
 
+*:focus{
+	border: 5px solid black;
+	box-shadow: 0 0 10px 5px white;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -26,10 +31,6 @@ body {
 	font-family: $font-family;
 	font-size: $font-size;
 	margin-top: 150px;
-
-	// @media screen and (max-width: 600px) {
-	// 	font-size: $font-size-small;
-	// }
 }
 
 a {
@@ -99,7 +100,6 @@ section:nth-child(2n + 1) {
 	}
 
 	&::after {
-		// background: linear-gradient(45deg, $gradient-start, $neutral-color);
 		background: $neutral-color;
 		border-radius: 100px;
 		box-shadow: 0 0 5px 2.5px $neutral-color inset, 0 0 5px 2.5px $neutral-color;
