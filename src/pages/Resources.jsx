@@ -37,7 +37,7 @@ export default function Resources() {
 								Our goal is to provide a simple, up-to-date, and localized
 								source of information for people seeking abortions.
 							</p>
-							<a href='https://www.ineedana.com/'>ineedana.com</a>
+							<a href='https://www.ineedana.com/' target='_blank'>ineedana.com</a>
 						</article>
 						<article>
 							<h3>National Network of Abortion Funds</h3>
