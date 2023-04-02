@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import Contact from '../components/Contact';
 import logo from '../assets/logo.webp';
 import logoBridgeCollective from '../assets/bridge_collective_logo.webp';
 import logoMDH from '../assets/mdh_logo.webp';
@@ -9,7 +10,7 @@ export default function Kits() {
 	return (
 		<>
 			<Nav page='kits' />
-			<main>
+			<main id='kits'>
 				<h1>Reproductive Healthcare Kits</h1>
 				<section id='kit_hero' className='container'>
 					<img alt='SMAA Logo' class='smaa_logo' src={logo} />
@@ -57,6 +58,10 @@ export default function Kits() {
 							<p>718 E Hopkins St</p>
 						</figure>
 					</div>
+				</section>
+				<section id='contact'>
+					<h2>Contact Us</h2>
+					<Contact />
 				</section>
 			</main>
 		</>

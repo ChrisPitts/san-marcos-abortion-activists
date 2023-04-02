@@ -1,15 +1,17 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import Contact from '../components/Contact';
 import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
 import { Link } from 'react-router-dom';
 import logoVenmo from '../assets/venmo_logo.webp';
 
+
 export default function Home() {
 	return (
 		<>
 			<Nav page='home' />
-			<main>
+			<main id='home'>
 				<h1>San Marcos Abortion Activists</h1>
 				<section id='hero'>
 					<img src='http://via.placeholder.com/400x400' alt='SMAA Logo' />
@@ -58,31 +60,7 @@ export default function Home() {
 				</section>
 				<section id='contact'>
 					<h2>Contact Us</h2>
-					{/* TODO make form send an email */}
-					<form>
-						<label htmlFor='name' className='required'>
-							Name
-						</label>
-						<input type='text' name='name' id='name' required />
-						<label htmlFor='email'>Email</label>
-						<input type='email' name='email' id='email' />
-						<label htmlFor='topic'>Topic / Commttee</label>
-						<select name='topic' id='topic'>
-							<option>General</option>
-							<option>Harassment & Grievance</option>
-							<option>Communications Committee</option>
-							<option>Finance Committee</option>
-							<option>Organizing Committee</option>
-							<option>Policy Committee</option>
-						</select>
-						<label htmlFor='subject'>Subject</label>
-						<input type='text' name='subject' id='subject' />
-						<label htmlFor='message' className='required'>
-							Message
-						</label>
-						<textarea name='message' id='message' rows='10' required></textarea>
-						<input type='submit' name='submit' id='submit' />
-					</form>
+					<Contact />
 				</section>
 			</main>
 		</>

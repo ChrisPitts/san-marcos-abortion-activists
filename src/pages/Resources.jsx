@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import Contact from '../components/Contact';
 
 export default function Resources() {
 	return (
@@ -164,7 +165,9 @@ export default function Resources() {
 								arrest, prosecution, or other legal action related to abortion,
 								please contact us.
 							</p>
-							<a href='https://abortiondefensenetwork.org/' target='_blank'>abortiondefensenetwork.org</a>
+							<a href='https://abortiondefensenetwork.org/' target='_blank'>
+								abortiondefensenetwork.org
+							</a>
 						</article>
 					</div>
 				</section>
@@ -211,6 +214,10 @@ export default function Resources() {
 							<a href='tel:18887475010'>1-888-747-5010</a>
 						</article>
 					</div>
+				</section>
+				<section id='contact'>
+					<h2>Contact Us</h2>
+					<Contact />
 				</section>
 			</main>
 		</>
