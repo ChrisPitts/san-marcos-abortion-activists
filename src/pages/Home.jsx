@@ -58,7 +58,21 @@ export default function Home() {
 				</section>
 				<section id='contact'>
 					<h2>Contact Us</h2>
-					<p>Email: <a href='mailto:example@fakeaddress.com'>example@fakeaddress.com</a></p>
+					<form>
+						<label htmlFor='name' className='required'>
+							Name
+						</label>
+						<input type='text' name='name' id='name' required />
+						<label htmlFor='email'>Email</label>
+						<input type='email' name='email' id='email' />
+						<label htmlFor='subject'>Subject</label>
+						<input type='text' name='subject' id='subject' />
+						<label htmlFor='message' className='required'>
+							Message
+						</label>
+						<textarea name='message' id='message' rows='10' required></textarea>
+						<input type='submit' name='submit' id='submit' />
+					</form>
 				</section>
 			</main>
 		</>

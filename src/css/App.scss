@@ -64,7 +64,7 @@ p {
 	text-shadow: 0 0 10px black;
 }
 
-.btn {
+.btn, input[type="submit"] {
 	background: linear-gradient(mix($action-color, white, 75%), $action-color);
 	border-radius: 8px;
 	color: white;

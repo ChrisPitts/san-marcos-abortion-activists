@@ -65,5 +65,31 @@
 }
 
 #contact{
-	text-align: center;
+	// text-align: center;
+
+	form{
+		margin: auto;
+		width: 80%;
+		max-width: 800px;
+	}
+	
+	label, input, textarea{
+		display: block;
+		width: 100%;
+	}
+
+	input, textarea{
+		margin-bottom: 10px;
+	}
+
+	input[type="submit"]{
+		font-family: $font-family;
+		font-size: 1.25rem;
+	}
+
+	.required::after{
+		content: '*';
+		color: red;
+		margin-left: 2px;
+	}
 }
