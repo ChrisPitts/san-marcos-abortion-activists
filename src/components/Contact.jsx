@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
 	return (
-		<form action='https://formsubmit.co/cp25393@gmail.com' method='POST'>
+		<form action='https://formsubmit.co/d218b0cb531df277b253a37316bd8272' method='POST'>
 			{/* TODO make form send an email */}
 			<label htmlFor='name' className='required'>
 				Name
