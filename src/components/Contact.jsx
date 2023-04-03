@@ -7,11 +7,11 @@ export default function Contact() {
 			<label htmlFor='name' className='required'>
 				Name
 			</label>
-			<input type='text' name='name' id='name' required />
+			<input type='text' name='name' id='name' aria-label='name' required />
 			<label htmlFor='email'>Email</label>
-			<input type='email' name='email' id='email' />
+			<input type='email' name='email' id='email' aria-label='email'/>
 			<label htmlFor='topic'>Topic / Commttee</label>
-			<select name='topic' id='topic'>
+			<select name='topic' id='topic' aria-label='Topic / Committee'>
 				<option>General</option>
 				<option>Harassment & Grievance</option>
 				<option>Communications Committee</option>
@@ -20,11 +20,11 @@ export default function Contact() {
 				<option>Policy Committee</option>
 			</select>
 			<label htmlFor='subject'>Subject</label>
-			<input type='text' name='subject' id='subject' />
+			<input type='text' name='subject' id='subject' aria-label='subject' />
 			<label htmlFor='message' className='required'>
 				Message
 			</label>
-			<textarea name='message' id='message' rows='10' required></textarea>
+			<textarea name='message' id='message' rows='10' aria-label='message' required />
 			<input type='submit' name='submit' id='submit' />
 		</form>
 	);
