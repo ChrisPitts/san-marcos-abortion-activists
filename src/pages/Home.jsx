@@ -5,11 +5,16 @@ import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
 import { Link } from 'react-router-dom';
 import logoVenmo from '../assets/venmo_logo.webp';
+import { Helmet } from 'react-helmet';
 
 
 export default function Home() {
 	return (
 		<>
+			<Helmet>
+				<title>San Marcos Abortion Activists</title>
+				<meta name="description" content="Fighting to keep the government's laws off our bodies."/>
+			</Helmet>
 			<Nav page='home' />
 			<main id='home'>
 				<h1>San Marcos Abortion Activists</h1>

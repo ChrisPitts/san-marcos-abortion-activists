@@ -1,10 +1,15 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Contact from '../components/Contact';
+import { Helmet } from 'react-helmet';
 
 export default function About() {
 	return (
 		<>
+			<Helmet>
+				<title>About Us</title>
+				<meta name="description" content="San Marcos Abortion Activists is an unapologetically pro-abortion organization dedicated to advocating for reproductive justice through direct action, community building, and mutual aid. We strive to achieve a future where abortion is free, on-demand, without cultural or systemic shame and stigma."/>
+			</Helmet>
 			<Nav page='about' />
 			<main id='kits'>
 				<h1>About Us</h1>

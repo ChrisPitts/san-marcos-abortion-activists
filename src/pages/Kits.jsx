@@ -6,10 +6,15 @@ import logoBridgeCollective from '../assets/bridge_collective_logo.webp';
 import logoMDH from '../assets/mdh_logo.webp';
 import logoLazydaze from '../assets/lazydaze_logo.webp';
 import logoSplash from '../assets/splash_logo.webp';
+import { Helmet } from 'react-helmet';
 
 export default function Kits() {
 	return (
 		<>
+			<Helmet>
+				<title>Health Kits</title>
+				<meta name="description" content="San Marcos Abortion Activists has teamed up with The Bridge Collective to help distribute contraceptives and pregnancy tests to San Martians!"/>
+			</Helmet>
 			<Nav page='kits' />
 			<main id='kits'>
 				<h1>Reproductive Healthcare Kits</h1>

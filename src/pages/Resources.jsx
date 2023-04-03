@@ -1,10 +1,15 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Contact from '../components/Contact';
+import { Helmet } from 'react-helmet';
 
 export default function Resources() {
 	return (
 		<>
+			<Helmet >
+				<title>Resources</title>
+				<meta name="description" content="Help for Pregnant Texans, Informational, Legal, Emotional, and Cyber Security Resources"/>
+			</Helmet>
 			<Nav page='resources' />
 			<main id='resources'>
 				<h1>Resources</h1>
