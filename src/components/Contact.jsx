@@ -20,7 +20,7 @@ export default function Contact() {
 				<option>Policy Committee</option>
 			</select>
 			<label htmlFor='subject'>Subject</label>
-			<input type='text' name='subject' id='subject' aria-label='subject' />
+			<input type='text' name='_subject' id='subject' aria-label='subject' />
 			<label htmlFor='message' className='required'>
 				Message
 			</label>
