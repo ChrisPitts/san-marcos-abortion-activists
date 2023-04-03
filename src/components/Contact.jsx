@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Contact() {
 	return (
-		<form>
+		<form action='https://formsubmit.co/cp25393@gmail.com' method='POST'>
 			{/* TODO make form send an email */}
-			<label htmlFor='name' className='required'>
+			<label htmlFor='name' className='required'>git
 				Name
 			</label>
 			<input type='text' name='name' id='name' aria-label='name' required />
