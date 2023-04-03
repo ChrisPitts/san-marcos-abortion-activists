@@ -5,6 +5,7 @@ import logo from '../assets/logo.webp';
 import logoBridgeCollective from '../assets/bridge_collective_logo.webp';
 import logoMDH from '../assets/mdh_logo.webp';
 import logoLazydaze from '../assets/lazydaze_logo.webp';
+import logoSplash from '../assets/splash_logo.webp';
 
 export default function Kits() {
 	return (
@@ -56,6 +57,11 @@ export default function Kits() {
 							<h3>Lazy Daze</h3>
 							<img alt='Lazy Daze' src={logoLazydaze}></img>
 							<p>718 E Hopkins St</p>
+						</figure>
+						<figure>
+							<h3>Splash Coworking</h3>
+							<img alt='Splash Coworking' src={logoSplash} />
+							<p>326 N LBJ Dr</p>
 						</figure>
 					</div>
 				</section>
