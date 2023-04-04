@@ -61,16 +61,19 @@ export default function Kits() {
 						<figure>
 							<h3>Modern Day Hemp</h3>
 							<img alt='Modern Day Hemp' src={logoMDH} />
+							<p>1pm-9pm</p>
 							<p>317 N LBJ Dr</p>
 						</figure>
 						<figure>
 							<h3>Lazy Daze</h3>
 							<img alt='Lazy Daze' src={logoLazydaze}></img>
+							<p>9am-9pm</p>
 							<p>718 E Hopkins St</p>
 						</figure>
 						<figure>
 							<h3>Splash Coworking</h3>
 							<img alt='Splash Coworking' src={logoSplash} />
+							<p>M-F 8am-6pm</p>
 							<p>326 N LBJ Dr</p>
 						</figure>
 					</div>
