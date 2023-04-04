@@ -1,12 +1,18 @@
+// React
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+
+// Components
 import Nav from '../components/Nav';
 import Contact from '../components/Contact';
 import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
-import { Link } from 'react-router-dom';
+
+// Images
 import logoHero from '../assets/hero_logo.webp';
 import logoVenmo from '../assets/venmo_logo.webp';
-import { Helmet } from 'react-helmet';
+
 
 
 export default function Home() {

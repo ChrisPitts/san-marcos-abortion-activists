@@ -1,7 +1,10 @@
+// React
 import React from 'react';
+import { Helmet } from 'react-helmet';
+
+// Components
 import Nav from '../components/Nav';
 import Contact from '../components/Contact';
-import { Helmet } from 'react-helmet';
 
 export default function About() {
 	return (

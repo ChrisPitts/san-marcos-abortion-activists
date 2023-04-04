@@ -1,5 +1,8 @@
+// React
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+// Components
 import Nav from "../components/Nav"
 
 export default function FormSubmitted(){

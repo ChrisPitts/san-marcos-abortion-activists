@@ -1,12 +1,17 @@
+// React
 import React from 'react';
+import { Helmet } from 'react-helmet';
+
+// Components
 import Nav from '../components/Nav';
 import Contact from '../components/Contact';
+
+// Images
 import logo from '../assets/logo.webp';
 import logoBridgeCollective from '../assets/bridge_collective_logo.webp';
 import logoMDH from '../assets/mdh_logo.webp';
 import logoLazydaze from '../assets/lazydaze_logo.webp';
 import logoSplash from '../assets/splash_logo.webp';
-import { Helmet } from 'react-helmet';
 
 export default function Kits() {
 	return (

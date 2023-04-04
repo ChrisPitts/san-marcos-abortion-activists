@@ -1,5 +1,10 @@
+// Styles
 import './css/App.scss';
+
+// React Hooks
 import { Route , Routes} from 'react-router-dom';
+
+// Pages
 import Home from './pages/Home';
 import About from './pages/About';
 import Kits from './pages/Kits';
