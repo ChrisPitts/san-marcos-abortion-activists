@@ -4,6 +4,7 @@ import Contact from '../components/Contact';
 import Instagram from '../components/Instagram';
 import Twitter from '../components/Twitter';
 import { Link } from 'react-router-dom';
+import logoHero from '../assets/hero_logo.webp';
 import logoVenmo from '../assets/venmo_logo.webp';
 import { Helmet } from 'react-helmet';
 
@@ -19,8 +20,8 @@ export default function Home() {
 			<main id='home'>
 				<h1>San Marcos Abortion Activists</h1>
 				<section id='hero'>
-					<img src='http://via.placeholder.com/400x400' alt='SMAA Logo' />
 					<p>Fighting to keep the government's laws off our bodies.</p>
+					<img src={logoHero} alt='SMAA Logo' />
 				</section>
 				<section id='kits'>
 					<h2>Need emergency contraceptives or pregnancy tests?</h2>

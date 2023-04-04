@@ -4,11 +4,18 @@
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	align-items: center;
+	// align-items: center;
+
 	img{
-		aspect-ratio: 1/1;
+		aspect-ratio: 200/461;
+		width: 400px;
 		display: block;
 		max-width: 80%;
+		margin-bottom: -450px;
+
+		@media screen and (max-width: 840px) {
+			margin: 0 40px -300px;
+		}
 
 	}
 
@@ -16,7 +23,10 @@
 		font-weight: 700;
 		width: 400px;
 		max-width: 80%;
-		margin: 0;
+		margin: 200px 20px 0;
+		@media screen and (max-width: 840px) {
+			margin:0;
+		}
 	}
 }
 
