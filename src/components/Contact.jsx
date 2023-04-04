@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Contact() {
+	const homepageURL = window.location.protocol + '//' + window.location.host;
 	return (
 		<form action='https://formsubmit.co/cp25393@gmail.com' method='POST'>
 			{/* TODO make form send an email */}
@@ -26,6 +27,7 @@ export default function Contact() {
 			</label>
 			<textarea name='message' id='message' rows='10' aria-label='message' required />
 			<input type='submit' name='submit' id='submit' />
+			<input type="hidden" name="_next" value={homepageURL + '/formsubmitted'}></input>
 		</form>
 	);
 }
