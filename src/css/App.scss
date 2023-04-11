@@ -64,8 +64,8 @@ p {
 .emphasized {
 	color: $highlight-color;
 	font-weight: 700;
-	text-shadow: 0 0 3px rgb(146, 146, 146),
-	0 0 20px black;
+	// text-shadow: 0 0 3px rgb(146, 146, 146),
+	// 0 0 20px black;
 }
 
 .btn, input[type="submit"] {
@@ -99,9 +99,5 @@ section:nth-child(2n + 1) {
 	padding: 80px 0;
 	position: relative;
 
-	.emphasized{ 
-		color: $highlight-color-2;
-		text-shadow: none;
-	}
 
 }
