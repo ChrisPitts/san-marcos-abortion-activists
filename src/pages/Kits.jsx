@@ -18,7 +18,10 @@ export default function Kits() {
 		<>
 			<Helmet>
 				<title>Health Kits</title>
-				<meta name="description" content="San Marcos Abortion Activists has teamed up with The Bridge Collective to help distribute contraceptives and pregnancy tests to San Martians!"/>
+				<meta
+					name='description'
+					content='San Marcos Abortion Activists has teamed up with The Bridge Collective to help distribute contraceptives and pregnancy tests to San Martians!'
+				/>
 			</Helmet>
 			<Nav page='kits' />
 			<main id='kits'>
@@ -61,20 +64,23 @@ export default function Kits() {
 						<figure>
 							<h3>Modern Day Hemp</h3>
 							<img alt='Modern Day Hemp' src={logoMDH} />
-							<p>1pm-9pm</p>
-							<p>317 N LBJ Dr</p>
+							<p aria-description='hours'>
+								1pm to 9pm
+							</p>
+							<p aria-description='address'>317 N LBJ Dr</p>
 						</figure>
 						<figure>
 							<h3>Lazy Daze</h3>
 							<img alt='Lazy Daze' src={logoLazydaze}></img>
-							<p>9am-9pm</p>
-							<p>718 E Hopkins St</p>
+							<p aria-description='hours'>9am to 9pm</p>
+							<p aria-description='address'>718 E Hopkins St</p>
 						</figure>
 						<figure>
 							<h3>Splash Coworking</h3>
 							<img alt='Splash Coworking' src={logoSplash} />
-							<p>M-F 8am-6pm</p>
-							<p>326 N LBJ Dr</p>
+							<p aria-description='days'>Monday through Friday</p>
+							<p aria-description='hours'>8am to 6pm</p>
+							<p aria-description='address'>326 N LBJ Dr</p>
 						</figure>
 					</div>
 				</section>

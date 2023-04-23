@@ -6,6 +6,7 @@ export default function Instagram() {
 			href='https://www.instagram.com/smabortionactivists/'
 			class='social-component'
 			target='_blank'
+			aria-label='instagram'
 		>
 			<h3>Instagram</h3>
 			<img

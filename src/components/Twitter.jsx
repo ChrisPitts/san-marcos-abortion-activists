@@ -6,6 +6,7 @@ export default function () {
 			href='https://twitter.com/smabortionact'
 			class='social-component'
 			target='_blank'
+			aria-label='twitter'
 		>
 			<h3>Twitter</h3>
 			<img

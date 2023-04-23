@@ -54,6 +54,7 @@ export default function Home() {
 							href='https://account.venmo.com/u/smabortionactivists'
 							target='_blank'
 							class='btn'
+							aria-label='venmo'
 						>
 							<h3>Venmo</h3>
 
