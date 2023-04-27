@@ -34,7 +34,7 @@ body {
 }
 
 a {
-	color: $action-color;
+	color: $action-color-text;
 	text-decoration: none;
 	text-align: center;
 	font-weight: 700;
@@ -69,14 +69,15 @@ p {
 }
 
 .btn, input[type="submit"] {
-	background: linear-gradient(mix($action-color, white, 75%), $action-color);
+	background: linear-gradient($action-color-background, mix($action-color-background, black, 75%));
+	border: none;
 	border-radius: 8px;
 	color: white;
 	padding: 5px 20px;
 	text-decoration: none;
 
 	&:hover {
-		background: linear-gradient($action-color, mix($action-color, white, 75%));
+		background: linear-gradient(mix($action-color-background, black, 75%), $action-color-background);
 		text-decoration: none;
 	}
 }
