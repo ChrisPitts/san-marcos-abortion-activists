@@ -62,8 +62,10 @@ p {
 
 
 .emphasized {
-	color: $highlight-color;
-	font-weight: 700;
+	// color: $highlight-color;
+	font-weight: 800;
+	// text-decoration: underline;
+	// font-style: italic;
 	// text-shadow: 0 0 3px rgb(146, 146, 146),
 	// 0 0 20px black;
 }
