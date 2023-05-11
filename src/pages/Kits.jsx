@@ -24,7 +24,7 @@ export default function Kits() {
 				/>
 			</Helmet>
 			<Nav page='kits' />
-			<main id='kits'>
+			<main>
 				<h1>Reproductive Healthcare Kits</h1>
 				<section id='kit_hero' className='container'>
 					<img alt='SMAA Logo' class='smaa_logo' src={logo} />

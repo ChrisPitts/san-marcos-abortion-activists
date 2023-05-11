@@ -17,7 +17,7 @@ export default function About() {
 				/>
 			</Helmet>
 			<Nav page='about' />
-			<main id='kits'>
+			<main>
 				<h1>About Us</h1>
 				<section id='mission'>
 					<h2>Our Mission</h2>
