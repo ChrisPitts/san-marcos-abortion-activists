@@ -11,7 +11,10 @@ export default function About() {
 		<>
 			<Helmet>
 				<title>About Us</title>
-				<meta name="description" content="San Marcos Abortion Activists is an unapologetically pro-abortion organization dedicated to advocating for reproductive justice through direct action, community building, and mutual aid. We strive to achieve a future where abortion is free, on-demand, without cultural or systemic shame and stigma."/>
+				<meta
+					name='description'
+					content='San Marcos Abortion Activists is an unapologetically pro-abortion organization dedicated to advocating for reproductive justice through direct action, community building, and mutual aid. We strive to achieve a future where abortion is free, on-demand, without cultural or systemic shame and stigma.'
+				/>
 			</Helmet>
 			<Nav page='about' />
 			<main id='kits'>
@@ -32,7 +35,20 @@ export default function About() {
 					</p>
 				</section>
 				<section id='values'>
-					<h2>We believe the fight for reproductive rights must be</h2>
+					<h2>Our Values</h2>
+					<p>
+						San Marcos Abortion Activists believes that the fight for abortion
+						rights must be <span className='emphasized'>intersectional</span>,{' '}
+						<span className='emphasized'>anti-racist</span>,{' '}
+						<span className='emphasized'>inclusive</span>, and{' '}
+						<span className='emphasized'>compassionate</span>. At SMAA,
+						reproductive rights are for everyone. We use{' '}
+						<span className='emphasized'>gender-inclusive language</span> and
+						are mindful of the many barriers to abortion access. We acknowledge
+						that no pregnancy journey is the same and that every person deserves
+						access to healthcare free of stigma.
+					</p>
+					{/* <h2>We believe the fight for reproductive rights must be</h2>
 					<div className='value-container'>
 						<article class>
 							<h3>Intersectional</h3>
@@ -70,7 +86,7 @@ export default function About() {
 								dolore voluptatem culpa accusamus?
 							</p>
 						</article>
-					</div>
+					</div> */}
 				</section>
 				<section id='work'>
 					<h2>Our Work</h2>
