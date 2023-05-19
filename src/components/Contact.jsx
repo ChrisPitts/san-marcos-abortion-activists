@@ -4,8 +4,17 @@ export default function Contact() {
 	const homepageURL = window.location.protocol + '//' + window.location.host;
 	return (
 		<>
-			<p>Fill out this form or email us at <a href='mailto:info@smabortionactivists.org'>info@smabortionactivists.org</a> and we will get back to you as soon as we can!</p>
-			<form action='https://formsubmit.co/cp25393@gmail.com' method='POST'>
+			<p>
+				Fill out this form or email us at{' '}
+				<a href='mailto:info@smabortionactivists.org'>
+					info@smabortionactivists.org
+				</a>{' '}
+				and we will get back to you as soon as we can!
+			</p>
+			<form
+				action='https://formsubmit.co/c466330d25aa0a9ea5dd88850935c57f'
+				method='POST'
+			>
 				{/* TODO make form send an email */}
 				<label htmlFor='name' className='required'>
 					Name
