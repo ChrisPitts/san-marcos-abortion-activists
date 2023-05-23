@@ -2,6 +2,7 @@
 @use 'components' as *;
 @use 'pages' as *;
 
+// *** GLOBAL RULES *** //
 *,
 *::after,
 *::before {
@@ -16,7 +17,7 @@
 	color: white;
 }
 
-*:focus-visible{
+*:focus-visible {
 	border: 5px solid black;
 	box-shadow: 0 0 10px 5px white;
 }
@@ -33,6 +34,8 @@ body {
 	margin-top: 150px;
 }
 
+// *** HTML ELEMENT RULES *** //
+
 a {
 	color: $action-color-text;
 	text-decoration: none;
@@ -42,7 +45,6 @@ a {
 
 	&:hover {
 		text-shadow: 0 0 10px white;
-		
 	}
 }
 
@@ -59,14 +61,26 @@ p {
 	width: 80%;
 }
 
-
-
-.emphasized {
-	font-weight: 800;
+section {
+	padding: 50px 0;
 }
 
-.btn, input[type="submit"] {
-	background: linear-gradient($action-color-background, mix($action-color-background, black, 75%));
+section:nth-child(2n + 1) {
+	background: $neutral-color;
+	box-shadow: 0 0 5px 2.5px $neutral-color inset, 0 0 5px 2.5px $neutral-color;
+	color: $text-color;
+	padding: 80px 0;
+	position: relative;
+}
+
+// *** CLASS RULES *** //
+
+.btn,
+input[type='submit'] {
+	background: linear-gradient(
+		$action-color-background,
+		mix($action-color-background, black, 75%)
+	);
 	border: none;
 	border-radius: 8px;
 	color: white;
@@ -74,7 +88,10 @@ p {
 	text-decoration: none;
 
 	&:hover {
-		background: linear-gradient(mix($action-color-background, black, 75%), $action-color-background);
+		background: linear-gradient(
+			mix($action-color-background, black, 75%),
+			$action-color-background
+		);
 		text-decoration: none;
 	}
 }
@@ -85,16 +102,6 @@ p {
 	flex-wrap: wrap;
 }
 
-section {
-	padding: 50px 0;
-}
-
-section:nth-child(2n + 1) {
-
-	background: $neutral-color;
-	box-shadow: 0 0 5px 2.5px $neutral-color inset, 0 0 5px 2.5px $neutral-color;
-	color: $text-color;
-	padding: 80px 0;
-	position: relative;
-
+.emphasized {
+	font-weight: 800;
 }
