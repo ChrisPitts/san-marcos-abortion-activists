@@ -96,6 +96,14 @@ input[type='submit'] {
 	}
 }
 
+.card{
+	background: $card-background-color;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px $card-shadow-color;
+	color: $card-text-color;
+	padding: 20px;
+}
+
 .container {
 	display: flex;
 	justify-content: space-around;

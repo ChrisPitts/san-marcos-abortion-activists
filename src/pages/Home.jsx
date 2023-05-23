@@ -20,13 +20,19 @@ export default function Home() {
 		<>
 			<Helmet>
 				<title>San Marcos Abortion Activists</title>
-				<meta name="description" content="Fighting to keep the government's laws off our bodies."/>
+				<meta
+					name='description'
+					content="Fighting to keep the government's laws off our bodies."
+				/>
 			</Helmet>
 			<Nav page='home' />
 			<main id='home'>
 				<h1>San Marcos Abortion Activists</h1>
 				<section id='hero'>
-					<p>Fighting to keep the government's laws off our bodies.</p>
+					<div className='card'>
+						<p>Fighting to keep the government's laws off our bodies.</p>
+					</div>
+
 					<img src={logoHero} alt='SMAA Logo' />
 				</section>
 				<section id='kits'>
