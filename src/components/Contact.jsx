@@ -22,7 +22,7 @@ export default function Contact() {
 				<input type='text' name='name' id='name' aria-label='name' required />
 				<label htmlFor='email'>Email</label>
 				<input type='email' name='email' id='email' aria-label='email' />
-				<label htmlFor='topic'>Topic / Commttee</label>
+				<label htmlFor='topic'>Topic / Committee</label>
 				<select name='topic' id='topic' aria-label='Topic / Committee'>
 					<option>General</option>
 					<option>Harassment & Grievance</option>
