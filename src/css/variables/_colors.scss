@@ -1,3 +1,37 @@
+$color-primary-light: #8CAFE3;
+$color-primary-semilight: #5893EB;
+$color-primary-neutral: #4075bf;
+$color-primary-semidark: #425F8B;
+$color-primary-dark: #425F8B;
+
+$color-text-primary: #ced9e4;
+$color-button-text: #FFFFFF;
+
+$color-secondary-light: #f1a8bd;
+$color-secondary-neutral: #d95078;
+$color-secondary-dark: #5e001b;
+
+$color-action-light: #a2e0a0;
+$color-action-neutral: #6f8f6e;
+$color-action-dark: #40673E;
+
+$button-gradient: linear-gradient($color-action-neutral, $color-action-dark);
+$button-hover-gradient: linear-gradient($color-action-dark, $color-action-neutral);
+
+$theme-primary: $color-primary-neutral, $color-text-primary, $color-action-light;
+$theme-secondary: $color-primary-dark, $color-text-primary, $color-action-light;
+$theme-button: $button-gradient, $color-button-text, $color-button-text;
+$theme-button-hover: $button-hover-gradient, $color-button-text, $color-button-text;
+
+@mixin color-theme($bg, $text, $link){
+    background: $bg;
+    color: $text;
+
+    a{
+        color: $link;
+    }
+}
+
 $primary-color: #1a76ff;
 
 $neutral-color: #61A08D;
