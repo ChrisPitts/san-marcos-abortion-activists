@@ -29,7 +29,7 @@ html {
 body {
 	// background-color: $primary-color;
 	// color: $text-color;
-	@include color-theme($theme-primary ...);
+	@include color-theme($theme-primary...);
 	font-family: $font-family;
 	font-size: $font-size;
 	margin-top: 150px;
@@ -65,20 +65,31 @@ p {
 
 section {
 	padding: 50px 0;
+
+	--mask: radial-gradient(49.2px at 50% 69px, #000 99%, #0000 101%)
+			calc(50% - 60px) 0/120px 51% repeat-x,
+		radial-gradient(49.2px at 50% -39px, #0000 99%, #000 101%) 50% 30px/120px
+			calc(51% - 30px) repeat-x,
+		radial-gradient(49.2px at 50% calc(100% - 69px), #000 99%, #0000 101%)
+			calc(50% - 60px) 100%/120px 51% repeat-x,
+		radial-gradient(49.2px at 50% calc(100% + 39px), #0000 99%, #000 101%) 50%
+			calc(100% - 30px) / 120px calc(51% - 30px) repeat-x;
+	-webkit-mask: var(--mask);
+	mask: var(--mask);
 }
 
 section:nth-child(2n + 1) {
 	// background: $neutral-color;
 	// box-shadow: 0 0 5px 2.5px $neutral-color inset, 0 0 5px 2.5px $neutral-color;
 	// color: $text-color;
-	@include color-theme($theme-secondary ...);
-	.btn, input[type='submit']{
-		@include color-theme($theme-button ...);
-		&:hover{
-			@include color-theme($theme-button-hover ...);
+	@include color-theme($theme-secondary...);
+	.btn,
+	input[type='submit'] {
+		@include color-theme($theme-button...);
+		&:hover {
+			@include color-theme($theme-button-hover...);
 		}
 	}
-	
 
 	padding: 80px 0;
 	position: relative;
@@ -92,7 +103,7 @@ input[type='submit'] {
 	// 	$action-color-background,
 	// 	mix($action-color-background, black, 75%)
 	// );
-	@include color-theme($theme-button ...);
+	@include color-theme($theme-button...);
 	border: none;
 	border-radius: 8px;
 	// color: white;
@@ -104,7 +115,7 @@ input[type='submit'] {
 		// 	mix($action-color-background, black, 75%),
 		// 	$action-color-background
 		// );
-		@include color-theme($theme-button-hover ...);
+		@include color-theme($theme-button-hover...);
 		text-decoration: none;
 	}
 }
