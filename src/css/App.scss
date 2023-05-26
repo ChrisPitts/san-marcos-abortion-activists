@@ -65,7 +65,15 @@ p {
 
 section {
 	padding: 50px 0;
+}
 
+section:nth-child(2n + 1) {
+	@include color-theme($theme-secondary...);
+
+	padding: 80px 0;
+	position: relative;
+
+	// Mask to add the wavy border
 	--mask: radial-gradient(49.2px at 50% 69px, #000 99%, #0000 101%)
 			calc(50% - 60px) 0/120px 51% repeat-x,
 		radial-gradient(49.2px at 50% -39px, #0000 99%, #000 101%) 50% 30px/120px
@@ -76,13 +84,7 @@ section {
 			calc(100% - 30px) / 120px calc(51% - 30px) repeat-x;
 	-webkit-mask: var(--mask);
 	mask: var(--mask);
-}
 
-section:nth-child(2n + 1) {
-	// background: $neutral-color;
-	// box-shadow: 0 0 5px 2.5px $neutral-color inset, 0 0 5px 2.5px $neutral-color;
-	// color: $text-color;
-	@include color-theme($theme-secondary...);
 	.btn,
 	input[type='submit'] {
 		@include color-theme($theme-button...);
@@ -90,9 +92,6 @@ section:nth-child(2n + 1) {
 			@include color-theme($theme-button-hover...);
 		}
 	}
-
-	padding: 80px 0;
-	position: relative;
 }
 
 // *** CLASS RULES *** //
