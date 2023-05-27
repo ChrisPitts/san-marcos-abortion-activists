@@ -12,15 +12,17 @@ import Twitter from '../components/Twitter';
 // Images
 import logoHero from '../assets/hero_logo.webp';
 import logoVenmo from '../assets/venmo_logo.webp';
-
-
+import logoCashApp from '../assets/cashapp_logo.svg';
 
 export default function Home() {
 	return (
 		<>
 			<Helmet>
 				<title>San Marcos Abortion Activists</title>
-				<meta name="description" content="Fighting to keep the government's laws off our bodies."/>
+				<meta
+					name='description'
+					content="Fighting to keep the government's laws off our bodies."
+				/>
 			</Helmet>
 			<Nav page='home' />
 			<main id='home'>
@@ -60,6 +62,16 @@ export default function Home() {
 
 							<img src={logoVenmo} alt='venmo' class='logoImg' />
 							<p>@smabortionactivists</p>
+						</a>
+						<a
+							href='https://cash.app/$smabortionactivists'
+							target='_blank'
+							className='btn'
+							aria-aria-label='cashapp'
+						>
+							<h3>Cashapp</h3>
+							<img src={logoCashApp} alt='cashapp' class='logoImg' />
+							<p>$smabortionactivists</p>
 						</a>
 					</div>
 				</section>
