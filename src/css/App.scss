@@ -66,7 +66,40 @@ p {
 section {
 	padding: 50px 0;
 
-	
+	--s: 36px; /* control the size */
+	$c1: $color-primary-dark;
+	$c2: $color-primary-light;
+	$c3: $color-primary-neutral;
+
+	$g1: conic-gradient(
+		at calc(250% / 3) calc(50% / 3),
+		$c2 60deg,
+		#0000 0 300deg,
+		$c1 0
+	);
+	$g2: conic-gradient(at calc(50% / 3) 50%, #0000 75%, $c1 0);
+	$g3: conic-gradient(at calc(100% / 3) 50%, #0000 75%, $c2 0);
+	$g4: conic-gradient(
+		from 59deg at calc(200% / 3) calc(249% / 9),
+		$c3 61deg,
+		#0000 62deg
+	);
+	$g5: conic-gradient(
+		from 60deg at 50% calc(250% / 3),
+		$color-primary-light /*4th color*/ 60deg,
+		$c1 0 120deg,
+		#0000 0
+	);
+	--_p: calc(
+		9 * tan(30deg) * var(--s)
+	); /* if you don't see the pattern replace tan(30deg) with 0.577 */
+	background: $g1 calc(-1 * var(--s)) 0,
+		$g1 calc(2 * var(--s)) var(--_p), $g2,
+		$g2 calc(3 * var(--s)) var(--_p), $g3,
+		$g3 calc(3 * var(--s)) var(--_p), $g4,
+		$g4 calc(3 * var(--s)) var(--_p), $g5 calc(3 * var(--s)) 0,
+		$g5 0 var(--_p) $c3;
+	background-size: calc(6 * var(--s)) calc(2 * var(--_p));
 }
 
 section:nth-child(2n + 1) {
@@ -76,9 +109,9 @@ section:nth-child(2n + 1) {
 	position: relative;
 
 	--s: 200px; /* control the size */
-	$c1: $color-secondary-dark;
-	$c2: $color-secondary-neutral;
-	$c3: $color-secondary-light;
+	$c1: #3865a6;
+	$c2: #315891;
+	$c3: #2a4c7e;
 
 	background: repeating-conic-gradient(from 30deg, #0000 0 120deg, $c3 0 180deg)
 			calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
