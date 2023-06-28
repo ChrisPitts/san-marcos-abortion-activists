@@ -7,9 +7,9 @@ $color-primary-dark: #425F8B;
 $color-text-primary: #ced9e4;
 $color-button-text: #FFFFFF;
 
-$color-secondary-light: #f1a8bd;
-$color-secondary-neutral: #d95078;
-$color-secondary-dark: #5e001b;
+$color-secondary-light: #8d3750;
+$color-secondary-neutral: #41101e;
+$color-secondary-dark: #31000e;
 
 $color-action-light: #a2e0a0;
 $color-action-neutral: #6f8f6e;
@@ -19,7 +19,7 @@ $button-gradient: linear-gradient($color-action-neutral, $color-action-dark);
 $button-hover-gradient: linear-gradient($color-action-dark, $color-action-neutral);
 
 $theme-primary: $color-primary-neutral, $color-text-primary, $color-action-light;
-$theme-secondary: $color-primary-dark, $color-text-primary, $color-action-light;
+$theme-secondary: $color-primary-dark, 000000, $color-action-light;
 $theme-button: $button-gradient, $color-button-text, $color-button-text;
 $theme-button-hover: $button-hover-gradient, $color-button-text, $color-button-text;
 
