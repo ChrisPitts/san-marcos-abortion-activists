@@ -67,7 +67,7 @@ export default function Home() {
 							href='https://cash.app/$smabortionactivists'
 							target='_blank'
 							className='btn'
-							aria-aria-label='cashapp'
+							aria-label='cashapp'
 						>
 							<h3>Cashapp</h3>
 							<img src={logoCashApp} alt='cashapp' class='logoImg' />
