@@ -48,6 +48,12 @@ export default function Home() {
 							<p className='date'>Haley Velasco, University Star</p>
 							<p className='date'>Sep 16, 2022</p>
 						</a>
+						<a className="article" target='_blank' href='https://janesdueprocess.org/blog/youth-to-the-front-meet-the-san-marcos-abortion-activists/'>
+							<figure><img src='https://janesdueprocess.org/wp-content/uploads/2021/09/Listen-to-Young-People-980x551.png'/></figure>
+							<figcaption>Youth to the Front: Meet the San Marcos Abortion Activists</figcaption>
+							<p className='date'>Jane's Due Process</p>
+							<p className='date'>Aug 18, 2022</p>
+						</a>
 					</div>
 				</section>
 				<section id='kits'>

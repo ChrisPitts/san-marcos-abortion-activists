@@ -1,7 +1,7 @@
 @use '../variables' as *;
 
 header {
-    background: rgba($primary-color, 0.7);
+    background: rgba($color-primary-neutral, 0.7);
 	display: flex;
 	justify-content: space-between;
     padding: 10px 40px;
@@ -25,7 +25,7 @@ header {
         justify-content: space-evenly;
         width: 80%;
         a{
-            color: $text-color;
+            color: $color-text-primary;
             text-decoration: none;
             transition: color 250ms linear;
             
