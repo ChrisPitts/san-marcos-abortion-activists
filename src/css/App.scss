@@ -152,6 +152,29 @@ section:nth-child(4n + 1) {
 }
 
 // *** CLASS RULES *** //
+.article{
+	background-color: white;
+	border-radius: 0.5rem;
+	color: black !important;
+	max-width: 300px;
+	padding: 10px;
+	text-align: left;
+	transition: box-shadow 250ms linear;
+
+	&:hover{
+		box-shadow: 0 0 20px white;
+	}
+
+	img{
+		width: 100%;
+	}
+	.date{
+		font-size: 1rem;;
+		text-align: right;
+		margin: 0;
+		width: 100%;
+	}
+}
 
 .btn,
 input[type='submit'] {
