@@ -35,30 +35,37 @@ export default function Home() {
 					<h2>In the News</h2>
 					<div className='container'>
 						<a className='article' target='_blank' href='https://www.kxan.com/news/texas-abortion/abortion-rights-activists-reflect-on-anniversary-of-scotus-dobbs-decision-overturn-of-roe-v-wade/'>
-							<figure>
-								<img src='https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.kxan.com%2Fwp-content%2Fuploads%2Fsites%2F40%2F2023%2F06%2FACCORD1.jpg%3Fw%3D1280'/>
-							</figure>
-							<figcaption>Abortion rights activists reflect on anniversary of SCOTUS’ Dobbs decision, overturn of Roe v. Wade</figcaption>
-							<p className="date">Mercedes Hernandez, KXAN</p>
-							<p className="date">Jun 24, 2023</p>
+							<article>
+								<figure>
+									<img src='https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.kxan.com%2Fwp-content%2Fuploads%2Fsites%2F40%2F2023%2F06%2FACCORD1.jpg%3Fw%3D1280' alt='Table with a sign on it that has the mean girls car meme captioned "Get in loser. Were funding abortion"'/>
+								</figure>
+								<figcaption>Abortion rights activists reflect on anniversary of SCOTUS’ Dobbs decision, overturn of Roe v. Wade</figcaption>
+								<p className="date">Mercedes Hernandez, KXAN</p>
+								<p className="date">Jun 24, 2023</p>
+							</article>
+							
 						</a>
 						<a className="article" target='_blank' href='https://www.universitystar.com/life_and_arts/san-marcos-abortion-activists-lend-a-helping-hand-to-the-community/article_86517734-3521-11ed-a942-13ee7fb4b77e.html'>
-							<figure><img src='https://bloximages.newyork1.vip.townnews.com/universitystar.com/content/tncms/assets/v3/editorial/1/5f/15f084f2-3522-11ed-bb92-cf481c5a9654/63236bc6008e2.image.jpg?resize=990%2C743'/></figure>
-							<figcaption>San Marcos abortion activists lend a helping hand to the community</figcaption>
-							<p className='date'>Haley Velasco, University Star</p>
-							<p className='date'>Sep 16, 2022</p>
+							
+								<figure><img src='https://bloximages.newyork1.vip.townnews.com/universitystar.com/content/tncms/assets/v3/editorial/1/5f/15f084f2-3522-11ed-bb92-cf481c5a9654/63236bc6008e2.image.jpg?resize=990%2C743' alt="Texas State graduate student Abagail Milam speaks at the Texas State Walkout Rally next to Texas State's Youth Democratic Socialists of America, Thursday, on Aug. 25, 2022, on The Quad."/></figure>
+								<figcaption>San Marcos abortion activists lend a helping hand to the community</figcaption>
+								<p className='date'>Haley Velasco, University Star</p>
+								<p className='date'>Sep 16, 2022</p>
+							
 						</a>
 						<a className="article" target='_blank' href='https://janesdueprocess.org/blog/youth-to-the-front-meet-the-san-marcos-abortion-activists/'>
-							<figure><img src='https://janesdueprocess.org/wp-content/uploads/2021/09/Listen-to-Young-People-980x551.png'/></figure>
-							<figcaption>Youth to the Front: Meet the San Marcos Abortion Activists</figcaption>
-							<p className='date'>Jane's Due Process</p>
-							<p className='date'>Aug 18, 2022</p>
+							
+								<figure><img alt='Listen to young people' src='https://janesdueprocess.org/wp-content/uploads/2021/09/Listen-to-Young-People-980x551.png'/></figure>
+								<figcaption>Youth to the Front: Meet the San Marcos Abortion Activists</figcaption>
+								<p className='date'>Jane's Due Process</p>
+								<p className='date'>Aug 18, 2022</p>
+							
 						</a>
 					</div>
 				</section>
 				<section id='kits'>
 					<h2>Need emergency contraceptives or pregnancy tests?</h2>
-					<article>
+					
 						<p>
 							San Marcos Abortion Activists has partnered with{' '}
 							<a href='https://thebridgecollective.org/' target='_blank'>
@@ -68,7 +75,7 @@ export default function Home() {
 							be requested at one of our pickup locations, or delivered to your
 							door by one of our volunteers!
 						</p>
-					</article>
+					
 
 					<Link to='/kits' class='btn'>
 						Get a Health Kit
