@@ -18,8 +18,8 @@
 }
 
 *:focus-visible {
-	border: 5px solid black;
-	box-shadow: 0 0 10px 5px white;
+	border: 0.25rem solid black;
+	box-shadow: 0 0 0.5rem 0.25rem white;
 }
 
 html {
@@ -32,7 +32,7 @@ body {
 	@include color-theme($theme-primary...);
 	font-family: $font-family;
 	font-size: $font-size-regular;
-	margin-top: 150px;
+	margin-top: 9rem;
 }
 
 // *** HTML ELEMENT RULES *** //
@@ -45,7 +45,7 @@ a {
 	transition: text-shadow 250ms linear, color 250ms linear;
 
 	&:hover {
-		text-shadow: 0 0 10px white;
+		text-shadow: 0 0 0.5rem white;
 	}
 }
 
@@ -53,7 +53,7 @@ h1,
 h2,
 h3 {
 	text-align: center;
-	text-shadow: 0 0 10px black;
+	text-shadow: 0 0 0.5rem black;
 	margin-block: 2rem;
 	// color: $color-secondary-dark;
 }
@@ -62,8 +62,6 @@ h1, h2{
 	font-size: $font-size-header;
 	letter-spacing: $header-line-spacing;
 	font-weight: $font-weight-header;
-	// text-shadow: 0 0 10px black;
-	// font-weight: 0;
 }
 
 h2,h3{
@@ -73,28 +71,26 @@ h2,h3{
 h3{
 	font-weight: $font-weight-subheader;
 	font-size: $font-size-regular;
-	
-	// text-shadow: 0 0 5px white;
 }
 
 p {
 	margin-block: 2rem;
 	margin-inline: auto;
-	max-width: 500px;
+	max-width: 31.25rem;
 	width: 80%;
 }
 
 section {
-	padding: 50px 0;
+	padding: 3.25rem 0;
 }
 
 section:nth-child(2n + 1) {
 	@include color-theme($theme-secondary...);
 
-	padding: 80px 0;
+	padding: 5rem 0;
 	position: relative;
 
-	--s: 200px; /* control the size */
+	--s: 12.5rem; /* control the size */
 	$c1: $color-primary-light;
 	$c2: $color-primary-neutral;
 	$c3: $color-primary-dark;
@@ -109,17 +105,6 @@ section:nth-child(2n + 1) {
 		);
 	background-size: var(--s) calc(var(--s) * 0.577);
 
-	// Mask to add the wavy border
-	// --mask: radial-gradient(49.2px at 50% 69px, #000 99%, #0000 101%)
-	// 		calc(50% - 60px) 0/120px 51% repeat-x,
-	// 	radial-gradient(49.2px at 50% -39px, #0000 99%, #000 101%) 50% 30px/120px
-	// 		calc(51% - 30px) repeat-x,
-	// 	radial-gradient(49.2px at 50% calc(100% - 69px), #000 99%, #0000 101%)
-	// 		calc(50% - 60px) 100%/120px 51% repeat-x,
-	// 	radial-gradient(49.2px at 50% calc(100% + 39px), #0000 99%, #000 101%) 50%
-	// 		calc(100% - 30px) / 120px calc(51% - 30px) repeat-x;
-	// -webkit-mask: var(--mask);
-	// mask: var(--mask);
 
 	.btn,
 	input[type='submit'] {
@@ -180,28 +165,22 @@ section:nth-child(4n + 1) {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	margin: 10px;
-	max-width: 300px;
-	padding: 10px;
+	margin: 0.5rem;
+	max-width: 19rem;
+	padding: 0.5rem;
 	position: relative;
 	text-align: left;
 	transition: box-shadow 250ms linear;
 
 	&:hover{
-		box-shadow: 0 0 20px white;
+		box-shadow: 0 0 1rem white;
 	}
-
-	// article{
-	// 	position: absolute;
-	// 	bottom: 0;
-	// 	left: 0;
-	// }
 
 	img{
 		width: 100%;
 	}
 	.date{
-		font-size: 1rem;;
+		font-size: 1rem;
 		text-align: right;
 		margin: 0;
 		width: 100%;
@@ -209,7 +188,7 @@ section:nth-child(4n + 1) {
 }
 
 .frosted-glass{
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(0.5rem);
 	background: rgba($color: $color-secondary-dark, $alpha: 0.5);
 	border-radius: 1rem;
 }
@@ -222,10 +201,10 @@ input[type='submit'] {
 	// );
 	@include color-theme($theme-button...);
 	border: none;
-	border-radius: 8px;
+	border-radius: 0.5rem;
 	// color: white;
-	margin: 10px;
-	padding: 5px 20px;
+	margin: 0.5rem;
+	padding: 0.5rem 1rem;
 	text-decoration: none;
 
 	&:hover {

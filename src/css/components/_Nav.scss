@@ -4,7 +4,7 @@ header {
     background: rgba($color-primary-light, 0.7);
 	display: flex;
 	justify-content: space-between;
-    padding: 10px 40px;
+    padding: 0.5rem 2.5rem;
     position:fixed;
     top: 0;
     width: 100%;
@@ -12,10 +12,10 @@ header {
 
     img{
         aspect-ratio: 10/13;
-        height: 100px;
+        height: 6.5rem;
 
         @media screen and (max-height: 300px) {
-            height: 80px;
+            height: 5rem;
         }
     }
 
@@ -44,11 +44,11 @@ header {
 
         &__bar{
             background-color: white;
-            width: 20px;
-            height: 3px;
+            width: 2rem;
+            height: 0.25rem;
 
             &.middle{
-                margin-block: 3px;
+                margin-block: 0.25rem;
             }
             
         }

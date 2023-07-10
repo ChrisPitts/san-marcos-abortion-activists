@@ -9,22 +9,22 @@
 
 	img{
 		aspect-ratio: 200/461;
-		width: 400px;
+		width: 25rem;
 		display: block;
 		max-width: 80%;
-		margin-bottom: -450px;
+		margin-bottom: -28rem;
 
 		@media screen and (max-width: 840px) {
-			margin: 0 40px -300px;
+			margin: 0 2.5rem 18.5rem;
 		}
 
 	}
 
 	p{
 		font-weight: 700;
-		width: 400px;
+		width: 25rem;
 		max-width: 80%;
-		margin: 200px 20px 0;
+		margin: 12.5rem 2rem 0;
 		@media screen and (max-width: 840px) {
 			margin:0;
 		}
@@ -35,11 +35,11 @@
 	text-align: center;
 
 	article {
-		margin: 20px;
+		margin: 2rem;
 	}
 
 	p {
-		max-width: 500px;
+		max-width: 32rem;
 		text-align: left;
 	}
 	.list-container {
@@ -54,7 +54,7 @@
 	a {
 		color: $color-text-primary;
 		text-decoration: none;
-		width: 300px;
+		width: 18.5rem;
 		max-width: 60%;
 	}
 	p{
@@ -67,7 +67,7 @@
 	}
 
 	.btn{
-		border-radius: 20px;
+		border-radius: 2rem;
 		p{
 			width: 100%;
 		}
