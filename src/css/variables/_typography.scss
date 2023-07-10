@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
 
-$font-family: 'EB Garamond', serif;
-$font-size: 1.5em;
-$font-size-small: 1em;
-$line-height: 1.5em;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+$font-family: 'Roboto', sans-serif;;
+
+$font-size-header: 2em;
+$header-line-spacing: -0.03rem;
+$font-weight-header: 900;
+
+$font-weight-subheader: 700;
+
+$font-size-regular: 1.5rem;
+$font-size-small: 1rem;
+
+$line-height: 2rem;

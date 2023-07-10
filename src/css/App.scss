@@ -31,7 +31,7 @@ body {
 	// color: $text-color;
 	@include color-theme($theme-primary...);
 	font-family: $font-family;
-	font-size: $font-size;
+	font-size: $font-size-regular;
 	margin-top: 150px;
 }
 
@@ -54,11 +54,32 @@ h2,
 h3 {
 	text-align: center;
 	text-shadow: 0 0 10px black;
+	margin-block: 2rem;
 	// color: $color-secondary-dark;
 }
 
+h1, h2{
+	font-size: $font-size-header;
+	letter-spacing: $header-line-spacing;
+	font-weight: $font-weight-header;
+	// text-shadow: 0 0 10px black;
+	// font-weight: 0;
+}
+
+h2,h3{
+	color: $color-secondary;
+}
+
+h3{
+	font-weight: $font-weight-subheader;
+	font-size: $font-size-regular;
+	
+	// text-shadow: 0 0 5px white;
+}
+
 p {
-	margin: auto;
+	margin-block: 2rem;
+	margin-inline: auto;
 	max-width: 500px;
 	width: 80%;
 }
@@ -74,9 +95,9 @@ section:nth-child(2n + 1) {
 	position: relative;
 
 	--s: 200px; /* control the size */
-	$c1: #3865a6;
-	$c2: #315891;
-	$c3: #2a4c7e;
+	$c1: $color-primary-light;
+	$c2: $color-primary-neutral;
+	$c3: $color-primary-dark;
 
 	background: repeating-conic-gradient(from 30deg, #0000 0 120deg, $c3 0 180deg)
 			calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),

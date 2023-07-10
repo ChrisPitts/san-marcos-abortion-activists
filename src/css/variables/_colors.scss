@@ -1,10 +1,12 @@
-$color-primary-light: #4075bf;
-$color-primary-neutral: #3866a7;
-$color-primary-dark: #425F8B;
+$color-primary-light: #284876;
+$color-primary-neutral: #264572;
+$color-primary-dark: #20395f;
 
 $color-text-primary: #ced9e4;
 $color-button-text: #FFFFFF;
 
+
+$color-secondary: #f98cac;
 
 $color-action-light: #a2e0a0;
 $color-action-neutral: #6f8f6e;
@@ -13,7 +15,7 @@ $color-action-dark: #40673E;
 $button-gradient: linear-gradient($color-action-neutral, $color-action-dark);
 $button-hover-gradient: linear-gradient($color-action-dark, $color-action-neutral);
 
-$theme-primary: $color-primary-neutral, $color-text-primary, $color-action-light;
+$theme-primary: $color-primary-light, $color-text-primary, $color-action-light;
 $theme-secondary: $color-primary-dark, 000000, $color-action-light;
 $theme-button: $button-gradient, $color-button-text, $color-button-text;
 $theme-button-hover: $button-hover-gradient, $color-button-text, $color-button-text;
