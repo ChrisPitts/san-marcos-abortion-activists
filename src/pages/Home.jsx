@@ -87,7 +87,7 @@ export default function Home() {
 						<a
 							href='https://account.venmo.com/u/smabortionactivists'
 							target='_blank'
-							class='btn'
+							class='frosted-glass'
 							aria-label='venmo'
 						>
 							<h3>Venmo</h3>
@@ -98,7 +98,7 @@ export default function Home() {
 						<a
 							href='https://cash.app/$smabortionactivists'
 							target='_blank'
-							className='btn'
+							className='frosted-glass'
 							aria-label='cashapp'
 						>
 							<h3>Cashapp</h3>

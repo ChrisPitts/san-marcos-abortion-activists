@@ -208,6 +208,12 @@ section:nth-child(4n + 1) {
 	}
 }
 
+.frosted-glass{
+	backdrop-filter: blur(5px);
+	background: rgba($color: $color-secondary-dark, $alpha: 0.5);
+	border-radius: 1rem;
+}
+
 .btn,
 input[type='submit'] {
 	// background: linear-gradient(

@@ -61,7 +61,7 @@ export default function Kits() {
 						free of charge!
 					</p>
 					<div class='container'>
-						<figure>
+						<figure className='frosted-glass'>
 							<h3>Modern Day Hemp</h3>
 							<img alt='Modern Day Hemp' src={logoMDH} />
 							<p aria-description='hours'>
@@ -69,13 +69,13 @@ export default function Kits() {
 							</p>
 							<p aria-description='address'>317 N LBJ Dr</p>
 						</figure>
-						<figure>
+						<figure className='frosted-glass'>
 							<h3>Lazy Daze</h3>
 							<img alt='Lazy Daze' src={logoLazydaze}></img>
 							<p aria-description='hours'>9am to 9pm</p>
 							<p aria-description='address'>718 E Hopkins St</p>
 						</figure>
-						<figure>
+						<figure className='frosted-glass'>
 							<h3>Splash Coworking</h3>
 							<img alt='Splash Coworking' src={logoSplash} />
 							<p aria-description='days'>Monday through Friday</p>
