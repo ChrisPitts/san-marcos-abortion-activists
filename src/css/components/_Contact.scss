@@ -20,11 +20,6 @@
 			margin-bottom: 0.5rem;
 		}
 
-		input[type='submit'] {
-			font-family: $font-family;
-			font-size: 1.25rem;
-		}
-
 		.required::after {
 			content: '*';
 			color: red;

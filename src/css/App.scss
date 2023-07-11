@@ -37,7 +37,11 @@ body {
 
 // *** HTML ELEMENT RULES *** //
 
-a {
+input[type='submit']{
+	// margin: 0;
+}
+
+a, input[type='submit'] {
 	// color: $action-color-text;
 	text-decoration: none;
 	text-align: center;
@@ -52,6 +56,7 @@ a {
 h1,
 h2,
 h3 {
+	margin: 1rem;;
 	text-align: center;
 	text-shadow: 0 0 0.5rem black;
 }
@@ -192,6 +197,7 @@ section:nth-child(4n + 1) {
 	backdrop-filter: blur(0.5rem);
 	background: rgba($color: $color-secondary-dark, $alpha: 0.5);
 	border-radius: 1rem;
+	margin: 0.5rem;
 }
 
 .btn,
@@ -227,4 +233,19 @@ input[type='submit'] {
 .emphasized {
 	font-weight: 800;
 	color: $color-secondary;
+}
+
+
+// LOW RES SETTINGS
+@media screen and (max-width: 500px) {
+
+	h1, h2{
+		font-size: $header-size-lowres;
+		line-height: 1.3*$header-size-lowres;
+	}
+
+	h3, p, a, input[type='submit']{
+		font-size: $font-size-lowres;
+		line-height: 1.5 * $font-size-lowres;
+	}
 }
