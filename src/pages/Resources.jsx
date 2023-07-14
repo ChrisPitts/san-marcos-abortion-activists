@@ -130,7 +130,7 @@ export default function Resources() {
 							<p>
 							Just The Pill innovates new service models like telehealth, mobile and pop-up clinics, we innovate with and for our colleagues in brick and mortar abortion clinics.
 							</p>
-							<a href='justthepill.com' target='_blank'>justthepill.com</a>
+							<a href='https://justthepill.com' target='_blank'>justthepill.com</a>
 						</article>
 						<article>
 							<h3>Fund Texas Choice</h3>
