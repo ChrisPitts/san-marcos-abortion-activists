@@ -103,7 +103,7 @@ export default function Resources() {
 								bucklebunnies.org
 							</a>
 						</article>
-						<article>
+						{/* <article>
 							<h3>Lilith Fund</h3>
 							<p>
 								The Lilith Fund is the oldest abortion fund in Texas, serving
@@ -112,7 +112,7 @@ export default function Resources() {
 							<a href='https://www.lilithfund.org/' target='_blank'>
 								lilithfund.org
 							</a>
-						</article>
+						</article> */}
 						<article>
 							<h3>La Frontera Fund</h3>
 							<p>
