@@ -61,27 +61,29 @@ export default function Kits() {
 						free of charge!
 					</p>
 					<div class='container'>
-						<figure>
-							<h3>Modern Day Hemp</h3>
-							<img alt='Modern Day Hemp' src={logoMDH} />
-							<p aria-description='hours'>
-								1pm to 9pm
-							</p>
-							<p aria-description='address'>317 N LBJ Dr</p>
-						</figure>
+						<a href='https://maps.app.goo.gl/Ci3zZtkr5KxdwD3UA' target='_blank'>
+							<figure>
+								<h3>Modern Day Hemp</h3>
+								<img alt='Modern Day Hemp' src={logoMDH} />
+								<p aria-description='hours'>1pm to 9pm</p>
+								<p aria-description='address'>317 N LBJ Dr</p>
+							</figure>
+						</a>
 						{/* <figure>
 							<h3>Lazy Daze</h3>
 							<img alt='Lazy Daze' src={logoLazydaze}></img>
 							<p aria-description='hours'>9am to 9pm</p>
 							<p aria-description='address'>718 E Hopkins St</p>
 						</figure> */}
-						<figure>
-							<h3>Splash Coworking</h3>
-							<img alt='Splash Coworking' src={logoSplash} />
-							<p aria-description='days'>Monday through Friday</p>
-							<p aria-description='hours'>8am to 6pm</p>
-							<p aria-description='address'>326 N LBJ Dr</p>
-						</figure>
+						<a href='https://maps.app.goo.gl/cNXrNL49Wsq4hwna7' target='_blank'>
+							<figure>
+								<h3>Splash Coworking</h3>
+								<img alt='Splash Coworking' src={logoSplash} />
+								<p aria-description='days'>Monday through Friday</p>
+								<p aria-description='hours'>8am to 6pm</p>
+								<p aria-description='address'>326 N LBJ Dr</p>
+							</figure>
+						</a>
 					</div>
 				</section>
 				<section id='contact'>
