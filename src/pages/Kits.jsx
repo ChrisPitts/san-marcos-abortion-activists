@@ -62,14 +62,6 @@ export default function Kits() {
 					</p>
 					<div class='container'>
 						<figure>
-							<h3>Modern Day Hemp</h3>
-							<img alt='Modern Day Hemp' src={logoMDH} />
-							<p aria-description='hours'>
-								1pm to 9pm
-							</p>
-							<p aria-description='address'>317 N LBJ Dr</p>
-						</figure>
-						<figure>
 							<h3>Lazy Daze</h3>
 							<img alt='Lazy Daze' src={logoLazydaze}></img>
 							<p aria-description='hours'>9am to 9pm</p>
