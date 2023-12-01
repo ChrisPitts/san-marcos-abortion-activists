@@ -62,7 +62,8 @@ export default function Slack() {
 						type='text'
 						name='social'
 						id='social'
-						aria-label='link to social media account'
+                        aria-label='link to social media account'
+                        required
 					/>
 					<p>
 						We use social media for vetting. If you don't use social media, or
