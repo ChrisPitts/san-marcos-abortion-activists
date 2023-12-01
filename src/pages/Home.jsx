@@ -45,14 +45,6 @@ export default function Home() {
 							</article>
 							
 						</a>
-						<a className="article" target='_blank' href='https://www.universitystar.com/life_and_arts/san-marcos-abortion-activists-lend-a-helping-hand-to-the-community/article_86517734-3521-11ed-a942-13ee7fb4b77e.html'>
-							
-								<figure><img src='https://bloximages.newyork1.vip.townnews.com/universitystar.com/content/tncms/assets/v3/editorial/1/5f/15f084f2-3522-11ed-bb92-cf481c5a9654/63236bc6008e2.image.jpg?resize=990%2C743' alt="Texas State graduate student Abagail Milam speaks at the Texas State Walkout Rally next to Texas State's Youth Democratic Socialists of America, Thursday, on Aug. 25, 2022, on The Quad."/></figure>
-								<figcaption>San Marcos abortion activists lend a helping hand to the community</figcaption>
-								<p className='date'>Haley Velasco, University Star</p>
-								<p className='date'>Sep 16, 2022</p>
-							
-						</a>
 						<a className="article" target='_blank' href='https://janesdueprocess.org/blog/youth-to-the-front-meet-the-san-marcos-abortion-activists/'>
 							
 								<figure><img alt='Listen to young people' src='https://janesdueprocess.org/wp-content/uploads/2021/09/Listen-to-Young-People-980x551.png'/></figure>

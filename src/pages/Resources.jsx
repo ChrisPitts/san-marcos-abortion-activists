@@ -103,7 +103,7 @@ export default function Resources() {
 								bucklebunnies.org
 							</a>
 						</article>
-						<article>
+						{/* <article>
 							<h3>Lilith Fund</h3>
 							<p>
 								The Lilith Fund is the oldest abortion fund in Texas, serving
@@ -112,7 +112,7 @@ export default function Resources() {
 							<a href='https://www.lilithfund.org/' target='_blank'>
 								lilithfund.org
 							</a>
-						</article>
+						</article> */}
 						<article>
 							<h3>La Frontera Fund</h3>
 							<p>
@@ -124,6 +124,13 @@ export default function Resources() {
 							<a href='https://fronterafundrgv.org/' target='_blank'>
 								fronterafundrgv.org
 							</a>
+						</article>
+						<article>
+							<h3>Just the Pill</h3>
+							<p>
+							Just The Pill innovates new service models like telehealth, mobile and pop-up clinics, we innovate with and for our colleagues in brick and mortar abortion clinics.
+							</p>
+							<a href='https://justthepill.com' target='_blank'>justthepill.com</a>
 						</article>
 						<article>
 							<h3>Fund Texas Choice</h3>
