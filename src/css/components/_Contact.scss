@@ -1,6 +1,6 @@
 @use '../variables' as *;
 
-#contact {
+#contact, #slack {
 	form {
 		margin: auto;
 		width: 80%;
@@ -23,6 +23,7 @@
 		input[type='submit'] {
 			font-family: $font-family;
 			font-size: 1.25rem;
+			margin-left: 0;
 		}
 
 		.required::after {

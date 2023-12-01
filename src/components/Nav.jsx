@@ -50,6 +50,11 @@ export default function Nav(props) {
 				>
 					Resources
 				</Link>
+				<Link
+					to='/slack'
+					className={props.page == 'slack' ? 'selected' : ''}
+					aria-current={props.page == 'slack' ? 'page' : ''}
+				>Join Our Slack</Link>
 			</nav>
 		</header>
 	);
