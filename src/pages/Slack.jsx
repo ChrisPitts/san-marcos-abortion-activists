@@ -75,6 +75,7 @@ export default function Slack() {
 						name='_next'
 						value={homepageURL + '/formsubmitted'}
 					></input>
+					<input type="hidden" name='_subject' value={'Slack Request Form Submitted'} />
 				</form>
 			</main>
 		</>
