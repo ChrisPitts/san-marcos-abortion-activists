@@ -10,8 +10,9 @@ import Contact from '../components/Contact';
 import logo from '../assets/logo.webp';
 import logoBridgeCollective from '../assets/bridge_collective_logo.webp';
 import logoMDH from '../assets/mdh_logo.webp';
-import logoLazydaze from '../assets/lazydaze_logo.webp';
 import logoSplash from '../assets/splash_logo.webp';
+import logoWTD from '../assets/logo_wtd.webp';
+import logoS13 from '../assets/logo_s13.webp';
 
 export default function Kits() {
 	return (
@@ -82,6 +83,23 @@ export default function Kits() {
 								<p aria-description='days'>Monday through Friday</p>
 								<p aria-description='hours'>8am to 6pm</p>
 								<p aria-description='address'>326 N LBJ Dr</p>
+							</figure>
+						</a>
+						<a href='https://maps.app.goo.gl/oBQihxVunCcRrfQUA' target='_blank'>
+							<figure>
+								<h3>Wake the Dead</h3>
+								<img alt='Wake the Dead' src={logoWTD} />
+								<p aria-description='hours'>7am to 10pm</p>
+								<p aria-description='address'>1432 Old Ranch Rd 12</p>
+							</figure>
+						</a>
+						<a href='https://maps.app.goo.gl/nKSzxsV9a7WaeXhE9' target='_blank'>
+							<figure>
+								<h3>Studio 13</h3>
+								<img alt='Studio 13' src={logoS13} />
+								<p aria-description='hours'>Sunday 1pm to 6pm</p>
+								<p aria-description='hours'>M-Sa 12pm to 8pm</p>
+								<p aria-description='address'>171 S L B J Dr</p>
 							</figure>
 						</a>
 					</div>
