@@ -13,10 +13,10 @@ export default function Slack() {
 	return (
 		<>
 			<Helmet>
-				<title>San Marcos Abortion Activists</title>
+				<title>Slack Request Form</title>
 				<meta
 					name='description'
-					content="Fighting to keep the government's laws off our bodies."
+					content="Form to request access to our slack channel"
 				/>
             </Helmet>
             
@@ -75,6 +75,7 @@ export default function Slack() {
 						name='_next'
 						value={homepageURL + '/formsubmitted'}
 					></input>
+					<input type="hidden" name='_subject' value={'Slack Request Form Submitted'} />
 				</form>
 			</main>
 		</>
